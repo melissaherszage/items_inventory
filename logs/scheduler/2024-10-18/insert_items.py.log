@@ -1,0 +1,1243 @@
+[2024-10-18T02:57:25.996+0000] {processor.py:186} INFO - Started process (PID=55) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T02:57:25.999+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T02:57:26.015+0000] {logging_mixin.py:190} INFO - [2024-10-18T02:57:26.011+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T02:57:33.527+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T02:57:33.644+0000] {logging_mixin.py:190} INFO - [2024-10-18T02:57:33.643+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T02:57:33.704+0000] {logging_mixin.py:190} INFO - [2024-10-18T02:57:33.704+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-18 02:35:00+00:00, run_after=2024-10-18 03:05:00+00:00
+[2024-10-18T02:57:33.742+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 7.766 seconds
+[2024-10-18T02:58:04.483+0000] {processor.py:186} INFO - Started process (PID=77) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T02:58:04.485+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T02:58:04.506+0000] {logging_mixin.py:190} INFO - [2024-10-18T02:58:04.503+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T02:58:06.756+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T02:58:06.780+0000] {logging_mixin.py:190} INFO - [2024-10-18T02:58:06.780+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T02:58:06.800+0000] {logging_mixin.py:190} INFO - [2024-10-18T02:58:06.800+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-18 02:35:00+00:00, run_after=2024-10-18 03:05:00+00:00
+[2024-10-18T02:58:06.814+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 2.346 seconds
+[2024-10-18T02:58:36.958+0000] {processor.py:186} INFO - Started process (PID=85) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T02:58:36.965+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T02:58:36.981+0000] {logging_mixin.py:190} INFO - [2024-10-18T02:58:36.980+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T02:58:37.554+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T02:58:37.572+0000] {logging_mixin.py:190} INFO - [2024-10-18T02:58:37.572+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T02:58:37.585+0000] {logging_mixin.py:190} INFO - [2024-10-18T02:58:37.585+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-18 02:35:00+00:00, run_after=2024-10-18 03:05:00+00:00
+[2024-10-18T02:58:37.594+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.663 seconds
+[2024-10-18T02:59:07.974+0000] {processor.py:186} INFO - Started process (PID=93) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T02:59:07.976+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T02:59:07.982+0000] {logging_mixin.py:190} INFO - [2024-10-18T02:59:07.981+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T02:59:08.583+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T02:59:08.597+0000] {logging_mixin.py:190} INFO - [2024-10-18T02:59:08.597+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T02:59:08.609+0000] {logging_mixin.py:190} INFO - [2024-10-18T02:59:08.609+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-18 02:35:00+00:00, run_after=2024-10-18 03:05:00+00:00
+[2024-10-18T02:59:08.619+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.660 seconds
+[2024-10-18T02:59:39.235+0000] {processor.py:186} INFO - Started process (PID=101) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T02:59:39.237+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T02:59:39.251+0000] {logging_mixin.py:190} INFO - [2024-10-18T02:59:39.249+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T02:59:40.041+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T02:59:40.067+0000] {logging_mixin.py:190} INFO - [2024-10-18T02:59:40.067+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T02:59:40.084+0000] {logging_mixin.py:190} INFO - [2024-10-18T02:59:40.083+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-18 02:35:00+00:00, run_after=2024-10-18 03:05:00+00:00
+[2024-10-18T02:59:40.093+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.884 seconds
+[2024-10-18T03:00:10.947+0000] {processor.py:186} INFO - Started process (PID=113) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:00:10.951+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:00:10.984+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:00:10.980+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:00:12.502+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:00:12.525+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:00:12.525+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:00:12.549+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:00:12.549+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-18 02:35:00+00:00, run_after=2024-10-18 03:05:00+00:00
+[2024-10-18T03:00:12.561+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 1.648 seconds
+[2024-10-18T03:00:43.269+0000] {processor.py:186} INFO - Started process (PID=122) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:00:43.271+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:00:43.280+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:00:43.279+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:00:44.361+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:00:44.381+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:00:44.380+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:00:44.395+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:00:44.395+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-18 02:35:00+00:00, run_after=2024-10-18 03:05:00+00:00
+[2024-10-18T03:00:44.405+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 1.147 seconds
+[2024-10-18T03:01:11.270+0000] {processor.py:186} INFO - Started process (PID=129) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:01:11.273+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:01:11.300+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:01:11.293+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:01:12.962+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:01:12.955+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/insert_items.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_items.py", line 36, in <module>
+    insert_items = PythonOperator(
+                   ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 224, in __init__
+    raise AirflowException("`python_callable` param must be callable")
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2024-10-18T03:01:12.963+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:01:13.033+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 1.810 seconds
+[2024-10-18T03:01:31.736+0000] {processor.py:186} INFO - Started process (PID=137) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:01:31.740+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:01:31.803+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:01:31.800+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:01:37.242+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:01:37.225+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/insert_items.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_items.py", line 36, in <module>
+    insert_items = PythonOperator(
+                   ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 224, in __init__
+    raise AirflowException("`python_callable` param must be callable")
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2024-10-18T03:01:37.243+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:01:37.285+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 5.571 seconds
+[2024-10-18T03:02:07.774+0000] {processor.py:186} INFO - Started process (PID=145) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:02:07.775+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:02:07.788+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:02:07.786+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:02:08.661+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:02:08.659+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/insert_items.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_items.py", line 36, in <module>
+    insert_items = PythonOperator(
+                   ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 224, in __init__
+    raise AirflowException("`python_callable` param must be callable")
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2024-10-18T03:02:08.662+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:02:08.692+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.934 seconds
+[2024-10-18T03:02:32.256+0000] {processor.py:186} INFO - Started process (PID=153) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:02:32.258+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:02:32.260+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:02:32.260+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:02:33.797+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:02:33.791+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/insert_items.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_items.py", line 36, in <module>
+    insert_items = PythonOperator(
+                   ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 224, in __init__
+    raise AirflowException("`python_callable` param must be callable")
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2024-10-18T03:02:33.797+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:02:33.836+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 1.590 seconds
+[2024-10-18T03:03:04.213+0000] {processor.py:186} INFO - Started process (PID=161) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:03:04.215+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:03:04.217+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:03:04.216+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:03:04.770+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:03:04.768+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/insert_items.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_items.py", line 36, in <module>
+    insert_items = PythonOperator(
+                   ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 224, in __init__
+    raise AirflowException("`python_callable` param must be callable")
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2024-10-18T03:03:04.771+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:03:04.788+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.588 seconds
+[2024-10-18T03:03:35.208+0000] {processor.py:186} INFO - Started process (PID=169) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:03:35.210+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:03:35.213+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:03:35.212+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:03:35.781+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:03:35.779+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/insert_items.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_items.py", line 36, in <module>
+    insert_items = PythonOperator(
+                   ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 224, in __init__
+    raise AirflowException("`python_callable` param must be callable")
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2024-10-18T03:03:35.781+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:03:35.794+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.602 seconds
+[2024-10-18T03:04:06.100+0000] {processor.py:186} INFO - Started process (PID=177) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:04:06.102+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:04:06.104+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:04:06.104+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:04:06.656+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:04:06.651+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/insert_items.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_items.py", line 36, in <module>
+    insert_items = PythonOperator(
+                   ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 224, in __init__
+    raise AirflowException("`python_callable` param must be callable")
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2024-10-18T03:04:06.656+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:04:06.684+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.595 seconds
+[2024-10-18T03:04:21.462+0000] {processor.py:186} INFO - Started process (PID=179) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:04:21.464+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:04:21.467+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:04:21.466+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:04:21.999+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:04:21.996+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/insert_items.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_items.py", line 36, in <module>
+    insert_items = PythonOperator(
+                   ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 224, in __init__
+    raise AirflowException("`python_callable` param must be callable")
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2024-10-18T03:04:21.999+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:04:22.021+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.571 seconds
+[2024-10-18T03:04:52.427+0000] {processor.py:186} INFO - Started process (PID=187) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:04:52.430+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:04:52.434+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:04:52.433+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:04:52.965+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:04:52.957+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/insert_items.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_items.py", line 36, in <module>
+    insert_items = PythonOperator(
+                   ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 224, in __init__
+    raise AirflowException("`python_callable` param must be callable")
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2024-10-18T03:04:52.966+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:04:52.995+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.583 seconds
+[2024-10-18T03:05:23.727+0000] {processor.py:186} INFO - Started process (PID=195) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:05:23.729+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:05:23.732+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:05:23.731+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:05:24.349+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:05:24.347+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/insert_items.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_items.py", line 36, in <module>
+    insert_items = PythonOperator(
+                   ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 224, in __init__
+    raise AirflowException("`python_callable` param must be callable")
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2024-10-18T03:05:24.349+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:05:24.368+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.663 seconds
+[2024-10-18T03:05:54.822+0000] {processor.py:186} INFO - Started process (PID=203) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:05:54.824+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:05:54.828+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:05:54.827+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:05:55.374+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:05:55.366+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/insert_items.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_items.py", line 36, in <module>
+    insert_items = PythonOperator(
+                   ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 224, in __init__
+    raise AirflowException("`python_callable` param must be callable")
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2024-10-18T03:05:55.376+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:05:55.401+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.593 seconds
+[2024-10-18T03:06:20.279+0000] {processor.py:186} INFO - Started process (PID=211) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:06:20.282+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:06:20.284+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:06:20.283+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:06:20.952+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:06:20.950+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/insert_items.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_items.py", line 36, in <module>
+    insert_items_task = PythonOperator(
+                        ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 224, in __init__
+    raise AirflowException("`python_callable` param must be callable")
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2024-10-18T03:06:20.952+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:06:20.971+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.710 seconds
+[2024-10-18T03:06:27.308+0000] {processor.py:186} INFO - Started process (PID=213) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:06:27.309+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:06:27.310+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:06:27.310+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:06:28.163+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:06:28.131+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/insert_items.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_items.py", line 36, in <module>
+    insert_items_task = PythonOperator(
+                        ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 224, in __init__
+    raise AirflowException("`python_callable` param must be callable")
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2024-10-18T03:06:28.165+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:06:28.275+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.975 seconds
+[2024-10-18T03:06:58.666+0000] {processor.py:186} INFO - Started process (PID=221) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:06:58.668+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:06:58.670+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:06:58.669+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:06:59.155+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:06:59.151+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/insert_items.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_items.py", line 36, in <module>
+    insert_items_task = PythonOperator(
+                        ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 224, in __init__
+    raise AirflowException("`python_callable` param must be callable")
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2024-10-18T03:06:59.156+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:06:59.193+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.541 seconds
+[2024-10-18T03:07:29.349+0000] {processor.py:186} INFO - Started process (PID=229) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:07:29.350+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:07:29.352+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:07:29.352+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:07:29.961+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:07:29.957+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/insert_items.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_items.py", line 36, in <module>
+    insert_items_task = PythonOperator(
+                        ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 224, in __init__
+    raise AirflowException("`python_callable` param must be callable")
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2024-10-18T03:07:29.961+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:07:29.988+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.652 seconds
+[2024-10-18T03:07:33.072+0000] {processor.py:186} INFO - Started process (PID=237) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:07:33.074+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:07:33.075+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:07:33.075+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:07:33.612+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:07:33.811+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:07:33.810+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:07:33.837+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:07:33.836+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-18 02:35:00+00:00, run_after=2024-10-18 03:05:00+00:00
+[2024-10-18T03:07:33.852+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.790 seconds
+[2024-10-18T03:07:46.608+0000] {processor.py:186} INFO - Started process (PID=239) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:07:46.611+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:07:46.614+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:07:46.613+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:07:48.805+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:07:48.826+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:07:48.825+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:07:48.854+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:07:48.853+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-18 03:05:00+00:00, run_after=2024-10-18 03:35:00+00:00
+[2024-10-18T03:07:48.869+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 2.288 seconds
+[2024-10-18T03:08:19.140+0000] {processor.py:186} INFO - Started process (PID=247) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:08:19.142+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:08:19.145+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:08:19.144+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:08:20.347+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:08:20.484+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:08:20.483+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:08:20.510+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:08:20.510+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-18 03:05:00+00:00, run_after=2024-10-18 03:35:00+00:00
+[2024-10-18T03:08:20.526+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 1.416 seconds
+[2024-10-18T03:08:50.662+0000] {processor.py:186} INFO - Started process (PID=255) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:08:50.665+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:08:50.669+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:08:50.668+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:08:51.239+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:08:51.257+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:08:51.257+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:08:51.275+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:08:51.275+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-18 03:05:00+00:00, run_after=2024-10-18 03:35:00+00:00
+[2024-10-18T03:08:51.292+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.652 seconds
+[2024-10-18T03:09:22.096+0000] {processor.py:186} INFO - Started process (PID=263) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:09:22.097+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:09:22.099+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:09:22.099+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:09:22.635+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:09:22.675+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:09:22.675+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:09:22.712+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:09:22.712+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-18 03:05:00+00:00, run_after=2024-10-18 03:35:00+00:00
+[2024-10-18T03:09:22.727+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.654 seconds
+[2024-10-18T03:09:53.193+0000] {processor.py:186} INFO - Started process (PID=271) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:09:53.194+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:09:53.196+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:09:53.196+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:09:53.719+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:09:53.733+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:09:53.732+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:09:53.745+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:09:53.745+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-18 03:05:00+00:00, run_after=2024-10-18 03:35:00+00:00
+[2024-10-18T03:09:53.753+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.570 seconds
+[2024-10-18T03:10:24.088+0000] {processor.py:186} INFO - Started process (PID=279) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:10:24.092+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:10:24.095+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:10:24.094+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:10:25.027+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:10:25.097+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:10:25.096+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:10:25.133+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:10:25.132+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-18 03:05:00+00:00, run_after=2024-10-18 03:35:00+00:00
+[2024-10-18T03:10:25.191+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 1.141 seconds
+[2024-10-18T03:10:55.547+0000] {processor.py:186} INFO - Started process (PID=287) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:10:55.548+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:10:55.550+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:10:55.549+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:10:56.269+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:10:56.289+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:10:56.288+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:10:56.310+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:10:56.309+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-18 03:05:00+00:00, run_after=2024-10-18 03:35:00+00:00
+[2024-10-18T03:10:56.324+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.799 seconds
+[2024-10-18T03:11:17.733+0000] {processor.py:186} INFO - Started process (PID=295) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:11:17.734+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:11:17.736+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:11:17.736+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:11:18.532+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:11:18.737+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:11:18.736+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:11:18.755+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:11:18.755+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:11:18.769+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 1.063 seconds
+[2024-10-18T03:11:49.160+0000] {processor.py:186} INFO - Started process (PID=303) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:11:49.162+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:11:49.165+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:11:49.164+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:11:49.702+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:11:49.718+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:11:49.718+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:11:49.731+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:11:49.731+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:11:49.738+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.607 seconds
+[2024-10-18T03:12:20.285+0000] {processor.py:186} INFO - Started process (PID=311) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:12:20.290+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:12:20.296+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:12:20.294+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:12:20.821+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:12:20.837+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:12:20.837+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:12:20.849+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:12:20.849+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:12:20.857+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.592 seconds
+[2024-10-18T03:12:51.206+0000] {processor.py:186} INFO - Started process (PID=319) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:12:51.209+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:12:51.212+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:12:51.211+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:12:51.848+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:12:51.866+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:12:51.866+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:12:51.882+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:12:51.881+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:12:51.892+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.702 seconds
+[2024-10-18T03:13:22.006+0000] {processor.py:186} INFO - Started process (PID=327) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:13:22.008+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:13:22.014+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:13:22.012+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:13:22.608+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:13:22.623+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:13:22.623+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:13:22.641+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:13:22.640+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:13:22.649+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.661 seconds
+[2024-10-18T03:13:53.034+0000] {processor.py:186} INFO - Started process (PID=335) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:13:53.037+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:13:53.041+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:13:53.040+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:13:53.574+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:13:53.605+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:13:53.605+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:13:53.623+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:13:53.623+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:13:53.632+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.626 seconds
+[2024-10-18T03:14:24.376+0000] {processor.py:186} INFO - Started process (PID=343) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:14:24.382+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:14:24.406+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:14:24.393+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:14:25.304+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:14:25.329+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:14:25.328+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:14:25.344+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:14:25.344+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:14:25.354+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 1.057 seconds
+[2024-10-18T03:14:55.807+0000] {processor.py:186} INFO - Started process (PID=351) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:14:55.809+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:14:55.811+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:14:55.810+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:14:56.374+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:14:56.391+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:14:56.390+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:14:56.408+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:14:56.408+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:14:56.417+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.625 seconds
+[2024-10-18T03:15:26.954+0000] {processor.py:186} INFO - Started process (PID=359) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:15:26.956+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:15:26.958+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:15:26.958+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:15:27.523+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:15:27.541+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:15:27.541+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:15:27.555+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:15:27.555+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:15:27.573+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.630 seconds
+[2024-10-18T03:15:57.828+0000] {processor.py:186} INFO - Started process (PID=367) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:15:57.829+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:15:57.831+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:15:57.830+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:15:59.072+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:15:59.095+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:15:59.095+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:15:59.164+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:15:59.164+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:15:59.213+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 1.398 seconds
+[2024-10-18T03:16:29.550+0000] {processor.py:186} INFO - Started process (PID=375) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:16:29.551+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:16:29.553+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:16:29.552+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:16:30.394+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:16:30.485+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:16:30.484+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:16:30.530+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:16:30.530+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:16:30.559+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 1.019 seconds
+[2024-10-18T03:17:01.290+0000] {processor.py:186} INFO - Started process (PID=383) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:17:01.292+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:17:01.294+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:17:01.293+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:17:02.707+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:17:02.774+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:17:02.774+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:17:02.810+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:17:02.810+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:17:02.823+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 1.543 seconds
+[2024-10-18T03:17:33.130+0000] {processor.py:186} INFO - Started process (PID=391) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:17:33.134+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:17:33.138+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:17:33.137+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:17:33.645+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:17:33.675+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:17:33.675+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:17:33.696+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:17:33.695+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:17:33.713+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.608 seconds
+[2024-10-18T03:18:04.161+0000] {processor.py:186} INFO - Started process (PID=399) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:18:04.163+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:18:04.166+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:18:04.165+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:18:04.736+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:18:04.750+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:18:04.750+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:18:04.762+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:18:04.762+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:18:04.771+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.623 seconds
+[2024-10-18T03:18:34.893+0000] {processor.py:186} INFO - Started process (PID=407) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:18:34.894+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:18:34.895+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:18:34.895+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:18:35.389+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:18:35.412+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:18:35.412+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:18:35.426+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:18:35.426+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:18:35.435+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.556 seconds
+[2024-10-18T03:19:05.733+0000] {processor.py:186} INFO - Started process (PID=415) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:19:05.735+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:19:05.737+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:19:05.736+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:19:06.476+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:19:06.506+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:19:06.504+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:19:06.531+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:19:06.530+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:19:06.542+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.823 seconds
+[2024-10-18T03:19:36.859+0000] {processor.py:186} INFO - Started process (PID=429) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:19:36.860+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:19:36.863+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:19:36.862+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:19:37.377+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:19:37.394+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:19:37.394+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:19:37.426+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:19:37.426+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:19:37.437+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.590 seconds
+[2024-10-18T03:20:07.719+0000] {processor.py:186} INFO - Started process (PID=437) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:20:07.723+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:20:07.732+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:20:07.731+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:20:08.784+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:20:08.857+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:20:08.856+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:20:08.941+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:20:08.940+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:20:09.175+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 1.472 seconds
+[2024-10-18T03:20:40.642+0000] {processor.py:186} INFO - Started process (PID=445) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:20:40.681+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:20:40.726+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:20:40.718+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:20:42.744+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:20:42.774+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:20:42.771+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:20:42.868+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:20:42.867+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:20:42.901+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 2.689 seconds
+[2024-10-18T03:21:13.302+0000] {processor.py:186} INFO - Started process (PID=453) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:21:13.305+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:21:13.307+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:21:13.306+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:21:13.831+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:21:13.851+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:21:13.851+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:21:13.872+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:21:13.872+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:21:13.893+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.606 seconds
+[2024-10-18T03:21:44.190+0000] {processor.py:186} INFO - Started process (PID=461) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:21:44.192+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:21:44.194+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:21:44.193+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:21:44.887+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:21:44.918+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:21:44.918+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:21:44.939+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:21:44.939+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:21:44.952+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.778 seconds
+[2024-10-18T03:22:15.436+0000] {processor.py:186} INFO - Started process (PID=469) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:22:15.439+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:22:15.445+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:22:15.442+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:22:16.144+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:22:16.185+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:22:16.185+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:22:16.216+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:22:16.215+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:22:16.237+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.822 seconds
+[2024-10-18T03:22:46.785+0000] {processor.py:186} INFO - Started process (PID=476) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:22:46.788+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:22:46.797+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:22:46.792+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:22:47.418+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:22:47.429+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:22:47.428+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:22:47.440+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:22:47.440+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:22:47.447+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.691 seconds
+[2024-10-18T03:23:17.826+0000] {processor.py:186} INFO - Started process (PID=484) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:23:17.828+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:23:17.830+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:23:17.829+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:23:18.620+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:23:18.690+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:23:18.689+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:23:18.739+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:23:18.738+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:23:18.762+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.943 seconds
+[2024-10-18T03:23:49.206+0000] {processor.py:186} INFO - Started process (PID=492) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:23:49.208+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:23:49.210+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:23:49.209+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:23:49.935+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:23:49.974+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:23:49.973+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:23:50.003+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:23:50.003+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:23:50.026+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.829 seconds
+[2024-10-18T03:24:20.484+0000] {processor.py:186} INFO - Started process (PID=500) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:24:20.486+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:24:20.488+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:24:20.488+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:24:21.290+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:24:21.336+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:24:21.336+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:24:21.369+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:24:21.368+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:24:21.380+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.914 seconds
+[2024-10-18T03:24:51.881+0000] {processor.py:186} INFO - Started process (PID=508) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:24:51.882+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:24:51.884+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:24:51.884+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:24:52.429+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:24:52.455+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:24:52.455+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:24:52.470+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:24:52.470+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:24:52.479+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.613 seconds
+[2024-10-18T03:25:22.906+0000] {processor.py:186} INFO - Started process (PID=516) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:25:22.910+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:25:22.913+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:25:22.912+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:25:23.599+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:25:23.638+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:25:23.638+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:25:23.651+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:25:23.651+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:25:23.660+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.768 seconds
+[2024-10-18T03:25:54.093+0000] {processor.py:186} INFO - Started process (PID=524) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:25:54.096+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:25:54.099+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:25:54.098+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:25:54.747+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:25:54.770+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:25:54.770+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:25:54.794+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:25:54.794+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:25:54.805+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.726 seconds
+[2024-10-18T03:26:25.282+0000] {processor.py:186} INFO - Started process (PID=533) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:26:25.285+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:26:25.289+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:26:25.287+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:26:25.860+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:26:25.885+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:26:25.885+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:26:25.903+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:26:25.903+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:26:25.911+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.643 seconds
+[2024-10-18T03:26:56.436+0000] {processor.py:186} INFO - Started process (PID=541) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:26:56.439+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:26:56.446+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:26:56.445+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:26:57.171+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:26:57.200+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:26:57.199+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:26:57.228+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:26:57.227+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:26:57.239+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.825 seconds
+[2024-10-18T03:27:28.062+0000] {processor.py:186} INFO - Started process (PID=549) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:27:28.063+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:27:28.063+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:27:28.063+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:27:28.352+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:27:28.392+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:27:28.392+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:27:28.411+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:27:28.411+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:27:28.423+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.366 seconds
+[2024-10-18T03:27:58.742+0000] {processor.py:186} INFO - Started process (PID=557) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:27:58.754+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:27:58.767+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:27:58.765+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:27:59.170+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:27:59.237+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:27:59.236+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:27:59.308+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:27:59.307+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:27:59.334+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.609 seconds
+[2024-10-18T03:28:29.835+0000] {processor.py:186} INFO - Started process (PID=565) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:28:29.837+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:28:29.838+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:28:29.838+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:28:30.134+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:28:30.164+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:28:30.164+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:28:30.199+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:28:30.198+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:28:30.212+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.386 seconds
+[2024-10-18T03:29:00.665+0000] {processor.py:186} INFO - Started process (PID=573) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:29:00.673+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:29:00.674+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:29:00.674+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:29:00.987+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:29:01.008+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:29:01.008+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:29:01.022+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:29:01.022+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:29:01.032+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.395 seconds
+[2024-10-18T03:29:31.368+0000] {processor.py:186} INFO - Started process (PID=581) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:29:31.371+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:29:31.375+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:29:31.374+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:29:31.696+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:29:31.719+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:29:31.718+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:29:31.735+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:29:31.735+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:29:31.744+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.391 seconds
+[2024-10-18T03:30:01.828+0000] {processor.py:186} INFO - Started process (PID=589) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:30:01.830+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:30:01.833+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:30:01.832+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:30:02.222+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:30:02.247+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:30:02.247+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:30:02.264+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:30:02.263+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:30:02.272+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.475 seconds
+[2024-10-18T03:30:32.911+0000] {processor.py:186} INFO - Started process (PID=597) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:30:32.913+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:30:32.915+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:30:32.914+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:30:33.271+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:30:33.296+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:30:33.296+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:30:33.311+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:30:33.311+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:30:33.321+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.425 seconds
+[2024-10-18T03:30:58.914+0000] {processor.py:186} INFO - Started process (PID=605) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:30:58.917+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:30:58.919+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:30:58.918+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:31:00.476+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:31:00.959+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:31:00.957+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:31:01.022+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:31:01.021+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:31:01.058+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 2.156 seconds
+[2024-10-18T03:31:31.817+0000] {processor.py:186} INFO - Started process (PID=617) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:31:31.820+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:31:31.823+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:31:31.822+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:31:33.566+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:31:33.615+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:31:33.614+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:31:33.639+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:31:33.639+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:31:33.657+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 1.872 seconds
+[2024-10-18T03:32:04.020+0000] {processor.py:186} INFO - Started process (PID=625) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:32:04.024+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:32:04.029+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:32:04.027+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:32:05.244+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:32:05.282+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:32:05.281+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:32:05.305+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:32:05.305+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:32:05.322+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 1.365 seconds
+[2024-10-18T03:32:36.068+0000] {processor.py:186} INFO - Started process (PID=637) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:32:36.070+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:32:36.072+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:32:36.072+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:32:36.973+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:32:37.039+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:32:37.038+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:32:37.071+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:32:37.071+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:32:37.105+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 1.051 seconds
+[2024-10-18T03:33:08.135+0000] {processor.py:186} INFO - Started process (PID=645) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:33:08.139+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:33:08.145+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:33:08.142+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:33:08.958+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:33:09.002+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:33:09.001+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:33:09.079+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:33:09.078+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:33:09.156+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 1.043 seconds
+[2024-10-18T03:33:39.778+0000] {processor.py:186} INFO - Started process (PID=653) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:33:39.780+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:33:39.790+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:33:39.786+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:33:40.154+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:33:40.178+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:33:40.178+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:33:40.197+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:33:40.197+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:33:40.210+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.450 seconds
+[2024-10-18T03:34:10.581+0000] {processor.py:186} INFO - Started process (PID=661) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:34:10.587+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:34:10.592+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:34:10.590+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:34:11.021+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:34:11.062+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:34:11.062+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:34:11.079+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:34:11.079+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:34:11.091+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.525 seconds
+[2024-10-18T03:34:41.548+0000] {processor.py:186} INFO - Started process (PID=675) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:34:41.554+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:34:41.563+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:34:41.562+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:34:41.902+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:34:41.942+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:34:41.942+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:34:41.960+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:34:41.960+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:34:41.970+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.448 seconds
+[2024-10-18T03:35:12.224+0000] {processor.py:186} INFO - Started process (PID=683) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:35:12.227+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:35:12.229+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:35:12.228+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:35:12.514+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:35:12.558+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:35:12.558+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:35:12.604+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:35:12.604+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:35:12.637+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.428 seconds
+[2024-10-18T03:35:43.018+0000] {processor.py:186} INFO - Started process (PID=691) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:35:43.020+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:35:43.022+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:35:43.021+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:35:43.413+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:35:43.441+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:35:43.441+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:35:43.461+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:35:43.461+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:35:43.484+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.474 seconds
+[2024-10-18T03:36:14.297+0000] {processor.py:186} INFO - Started process (PID=699) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:36:14.300+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:36:14.302+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:36:14.301+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:36:14.629+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:36:14.652+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:36:14.652+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:36:14.667+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:36:14.667+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:36:14.689+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.410 seconds
+[2024-10-18T03:36:45.654+0000] {processor.py:186} INFO - Started process (PID=707) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:36:45.657+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:36:45.662+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:36:45.660+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:36:46.504+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:36:46.549+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:36:46.549+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:36:46.575+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:36:46.574+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:36:46.594+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.961 seconds
+[2024-10-18T03:36:53.847+0000] {processor.py:186} INFO - Started process (PID=709) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:36:53.848+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:36:53.850+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:36:53.850+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:36:53.866+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:36:53.856+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/insert_items.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_items.py", line 40
+    conn = get_redshift_connection()
+           
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-10-18T03:36:53.867+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:36:53.921+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.086 seconds
+[2024-10-18T03:37:14.587+0000] {processor.py:186} INFO - Started process (PID=716) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:37:14.592+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:37:14.596+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:37:14.594+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:37:14.613+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:37:14.611+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/insert_items.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_items.py", line 5, in <module>
+    from python_files.lib.infra import get_redshift_connection
+ModuleNotFoundError: No module named 'python_files.lib.infra'
+[2024-10-18T03:37:14.614+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:37:14.687+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.133 seconds
+[2024-10-18T03:37:45.340+0000] {processor.py:186} INFO - Started process (PID=723) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:37:45.342+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:37:45.344+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:37:45.343+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:37:45.372+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:37:45.367+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/insert_items.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_items.py", line 5, in <module>
+    from python_files.lib.infra import get_redshift_connection
+ModuleNotFoundError: No module named 'python_files.lib.infra'
+[2024-10-18T03:37:45.373+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:37:45.429+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.102 seconds
+[2024-10-18T03:38:16.030+0000] {processor.py:186} INFO - Started process (PID=730) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:38:16.032+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:38:16.035+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:38:16.035+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:38:16.046+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:38:16.043+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/insert_items.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_items.py", line 5, in <module>
+    from python_files.lib.infra import get_redshift_connection
+ModuleNotFoundError: No module named 'python_files.lib.infra'
+[2024-10-18T03:38:16.046+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:38:16.091+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.073 seconds
+[2024-10-18T03:38:23.394+0000] {processor.py:186} INFO - Started process (PID=731) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:38:23.405+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:38:23.415+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:38:23.413+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:38:26.409+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:38:26.375+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/insert_items.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_items.py", line 38, in <module>
+    create_table_items = PostgresOperator(
+                         ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/postgres/operators/postgres.py", line 84, in __init__
+    super().__init__(conn_id=postgres_conn_id, **kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 232, in __init__
+    super().__init__(conn_id=conn_id, database=database, **kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 142, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 938, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to PostgresOperator (task_id: create_table_items). Invalid arguments were:
+**kwargs: {'conn': <connection object at 0xffff7df565c0; dsn: 'user=2024_melissa_herszage password=xxx dbname=pda host=redshift-pda-cluster.cnuimntownzt.us-east-2.redshift.amazonaws.com port=5439', closed: 0>}
+[2024-10-18T03:38:26.413+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:38:26.457+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 3.088 seconds
+[2024-10-18T03:38:57.244+0000] {processor.py:186} INFO - Started process (PID=739) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:38:57.247+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:38:57.250+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:38:57.248+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:38:58.977+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:38:58.932+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/insert_items.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_items.py", line 38, in <module>
+    create_table_items = PostgresOperator(
+                         ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/postgres/operators/postgres.py", line 84, in __init__
+    super().__init__(conn_id=postgres_conn_id, **kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 232, in __init__
+    super().__init__(conn_id=conn_id, database=database, **kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 142, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 938, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to PostgresOperator (task_id: create_table_items). Invalid arguments were:
+**kwargs: {'conn': <connection object at 0xffff7df525c0; dsn: 'user=2024_melissa_herszage password=xxx dbname=pda host=redshift-pda-cluster.cnuimntownzt.us-east-2.redshift.amazonaws.com port=5439', closed: 0>}
+[2024-10-18T03:38:58.996+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:38:59.052+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 1.823 seconds
+[2024-10-18T03:39:29.589+0000] {processor.py:186} INFO - Started process (PID=747) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:39:29.590+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:39:29.592+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:39:29.592+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:39:31.133+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:39:31.123+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/insert_items.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_items.py", line 38, in <module>
+    create_table_items = PostgresOperator(
+                         ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/postgres/operators/postgres.py", line 84, in __init__
+    super().__init__(conn_id=postgres_conn_id, **kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 232, in __init__
+    super().__init__(conn_id=conn_id, database=database, **kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 142, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 938, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to PostgresOperator (task_id: create_table_items). Invalid arguments were:
+**kwargs: {'conn': <connection object at 0xffff7df565c0; dsn: 'user=2024_melissa_herszage password=xxx dbname=pda host=redshift-pda-cluster.cnuimntownzt.us-east-2.redshift.amazonaws.com port=5439', closed: 0>}
+[2024-10-18T03:39:31.135+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:39:31.184+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 1.604 seconds
+[2024-10-18T03:40:01.609+0000] {processor.py:186} INFO - Started process (PID=755) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:40:01.611+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:40:01.614+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:40:01.613+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:40:03.266+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:40:03.250+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/insert_items.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_items.py", line 38, in <module>
+    create_table_items = PostgresOperator(
+                         ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/postgres/operators/postgres.py", line 84, in __init__
+    super().__init__(conn_id=postgres_conn_id, **kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 232, in __init__
+    super().__init__(conn_id=conn_id, database=database, **kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 142, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 938, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to PostgresOperator (task_id: create_table_items). Invalid arguments were:
+**kwargs: {'conn': <connection object at 0xffff7df565c0; dsn: 'user=2024_melissa_herszage password=xxx dbname=pda host=redshift-pda-cluster.cnuimntownzt.us-east-2.redshift.amazonaws.com port=5439', closed: 0>}
+[2024-10-18T03:40:03.269+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:40:03.310+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 1.712 seconds
+[2024-10-18T03:40:33.444+0000] {processor.py:186} INFO - Started process (PID=763) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:40:33.445+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:40:33.447+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:40:33.446+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:40:35.035+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:40:35.016+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/insert_items.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_items.py", line 38, in <module>
+    create_table_items = PostgresOperator(
+                         ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/postgres/operators/postgres.py", line 84, in __init__
+    super().__init__(conn_id=postgres_conn_id, **kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 232, in __init__
+    super().__init__(conn_id=conn_id, database=database, **kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 142, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 938, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to PostgresOperator (task_id: create_table_items). Invalid arguments were:
+**kwargs: {'conn': <connection object at 0xffff7df565c0; dsn: 'user=2024_melissa_herszage password=xxx dbname=pda host=redshift-pda-cluster.cnuimntownzt.us-east-2.redshift.amazonaws.com port=5439', closed: 0>}
+[2024-10-18T03:40:35.037+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:40:35.074+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 1.645 seconds
+[2024-10-18T03:41:05.248+0000] {processor.py:186} INFO - Started process (PID=771) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:41:05.250+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:41:05.253+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:41:05.252+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:41:07.068+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:41:07.049+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/insert_items.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_items.py", line 38, in <module>
+    create_table_items = PostgresOperator(
+                         ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/postgres/operators/postgres.py", line 84, in __init__
+    super().__init__(conn_id=postgres_conn_id, **kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 232, in __init__
+    super().__init__(conn_id=conn_id, database=database, **kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 142, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 938, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to PostgresOperator (task_id: create_table_items). Invalid arguments were:
+**kwargs: {'conn': <connection object at 0xffff7df565c0; dsn: 'user=2024_melissa_herszage password=xxx dbname=pda host=redshift-pda-cluster.cnuimntownzt.us-east-2.redshift.amazonaws.com port=5439', closed: 0>}
+[2024-10-18T03:41:07.071+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:41:07.132+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 1.894 seconds
+[2024-10-18T03:41:38.138+0000] {processor.py:186} INFO - Started process (PID=779) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:41:38.140+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:41:38.142+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:41:38.141+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:41:40.053+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:41:40.019+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/insert_items.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_items.py", line 38, in <module>
+    create_table_items = PostgresOperator(
+                         ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/postgres/operators/postgres.py", line 84, in __init__
+    super().__init__(conn_id=postgres_conn_id, **kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 232, in __init__
+    super().__init__(conn_id=conn_id, database=database, **kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 142, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 938, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to PostgresOperator (task_id: create_table_items). Invalid arguments were:
+**kwargs: {'conn': <connection object at 0xffff7df565c0; dsn: 'user=2024_melissa_herszage password=xxx dbname=pda host=redshift-pda-cluster.cnuimntownzt.us-east-2.redshift.amazonaws.com port=5439', closed: 0>}
+[2024-10-18T03:41:40.056+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:41:40.096+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 1.968 seconds
+[2024-10-18T03:42:10.954+0000] {processor.py:186} INFO - Started process (PID=787) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:42:10.957+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:42:10.960+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:42:10.959+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:42:12.670+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:42:12.651+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/insert_items.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_items.py", line 38, in <module>
+    create_table_items = PostgresOperator(
+                         ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/postgres/operators/postgres.py", line 84, in __init__
+    super().__init__(conn_id=postgres_conn_id, **kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 232, in __init__
+    super().__init__(conn_id=conn_id, database=database, **kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 142, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 938, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to PostgresOperator (task_id: create_table_items). Invalid arguments were:
+**kwargs: {'conn': <connection object at 0xffff7df565c0; dsn: 'user=2024_melissa_herszage password=xxx dbname=pda host=redshift-pda-cluster.cnuimntownzt.us-east-2.redshift.amazonaws.com port=5439', closed: 0>}
+[2024-10-18T03:42:12.699+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:42:12.796+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 1.857 seconds
+[2024-10-18T03:42:41.432+0000] {processor.py:186} INFO - Started process (PID=795) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:42:41.434+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:42:41.437+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:42:41.436+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:42:42.968+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:42:42.959+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/insert_items.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_items.py", line 39, in <module>
+    create_table_items = PostgresOperator(
+                         ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/postgres/operators/postgres.py", line 84, in __init__
+    super().__init__(conn_id=postgres_conn_id, **kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 232, in __init__
+    super().__init__(conn_id=conn_id, database=database, **kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 142, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 938, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to PostgresOperator (task_id: create_table_items). Invalid arguments were:
+**kwargs: {'conn': <connection object at 0xffff7df6e480; dsn: 'user=2024_melissa_herszage password=xxx dbname=pda host=redshift-pda-cluster.cnuimntownzt.us-east-2.redshift.amazonaws.com port=5439', closed: 0>}
+[2024-10-18T03:42:42.969+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:42:42.995+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 1.584 seconds
+[2024-10-18T03:42:54.481+0000] {processor.py:186} INFO - Started process (PID=803) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:42:54.485+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:42:54.487+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:42:54.487+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:42:54.854+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:42:55.167+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:42:55.166+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:42:55.213+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:42:55.213+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:42:55.239+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.785 seconds
+[2024-10-18T03:43:25.909+0000] {processor.py:186} INFO - Started process (PID=815) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:43:25.916+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:43:25.924+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:43:25.923+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:43:26.583+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:43:26.635+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:43:26.635+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:43:26.666+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:43:26.666+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:43:26.710+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.830 seconds
+[2024-10-18T03:43:57.613+0000] {processor.py:186} INFO - Started process (PID=823) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:43:57.615+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:43:57.618+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:43:57.617+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:43:58.111+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:43:58.284+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:43:58.283+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:43:58.303+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:43:58.303+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:43:58.318+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.739 seconds
+[2024-10-18T03:44:28.827+0000] {processor.py:186} INFO - Started process (PID=834) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:44:28.831+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:44:28.834+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:44:28.833+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:44:29.615+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:44:29.782+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:44:29.781+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:44:29.814+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:44:29.814+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:44:29.870+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 1.065 seconds
+[2024-10-18T03:45:00.930+0000] {processor.py:186} INFO - Started process (PID=842) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:45:00.933+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:45:00.936+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:45:00.935+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:45:01.507+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:45:01.548+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:45:01.548+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:45:01.569+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:45:01.568+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:45:01.592+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.684 seconds
+[2024-10-18T03:45:31.708+0000] {processor.py:186} INFO - Started process (PID=850) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:45:31.711+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:45:31.714+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:45:31.714+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:45:32.158+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:45:32.186+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:45:32.185+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:45:32.205+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:45:32.205+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:45:32.225+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.532 seconds
+[2024-10-18T03:46:02.586+0000] {processor.py:186} INFO - Started process (PID=859) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:46:02.588+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:46:02.590+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:46:02.590+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:46:03.220+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:46:03.263+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:46:03.262+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:46:03.285+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:46:03.285+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:46:03.297+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.722 seconds
+[2024-10-18T03:46:33.760+0000] {processor.py:186} INFO - Started process (PID=867) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:46:33.762+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:46:33.765+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:46:33.764+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:46:34.194+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:46:34.228+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:46:34.227+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:46:34.248+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:46:34.248+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:46:34.259+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.510 seconds
+[2024-10-18T03:47:04.603+0000] {processor.py:186} INFO - Started process (PID=875) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:47:04.605+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:47:04.607+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:47:04.606+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:47:04.971+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:47:04.999+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:47:04.999+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:47:05.026+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:47:05.026+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:47:05.040+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.446 seconds
+[2024-10-18T03:47:35.480+0000] {processor.py:186} INFO - Started process (PID=883) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:47:35.482+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:47:35.485+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:47:35.484+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:47:36.256+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:47:36.537+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:47:36.533+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:47:36.757+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:47:36.756+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:47:36.808+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 1.343 seconds
+[2024-10-18T03:48:07.309+0000] {processor.py:186} INFO - Started process (PID=891) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:48:07.311+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:48:07.315+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:48:07.314+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:48:07.761+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:48:07.800+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:48:07.800+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:48:07.820+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:48:07.820+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:48:07.830+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.533 seconds
+[2024-10-18T03:48:38.469+0000] {processor.py:186} INFO - Started process (PID=899) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:48:38.484+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:48:38.487+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:48:38.486+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:48:39.073+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:48:39.181+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:48:39.179+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:48:39.242+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:48:39.241+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:48:39.272+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.818 seconds
+[2024-10-18T03:49:09.816+0000] {processor.py:186} INFO - Started process (PID=907) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:49:09.817+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:49:09.819+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:49:09.818+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:49:10.332+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:49:10.367+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:49:10.367+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:49:10.384+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:49:10.384+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:49:10.394+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.585 seconds
+[2024-10-18T03:49:40.858+0000] {processor.py:186} INFO - Started process (PID=915) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:49:40.859+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:49:40.861+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:49:40.860+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:49:41.444+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:49:41.475+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:49:41.474+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:49:41.492+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:49:41.492+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:49:41.503+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.659 seconds
+[2024-10-18T03:50:12.373+0000] {processor.py:186} INFO - Started process (PID=923) to work on /opt/airflow/dags/insert_items.py
+[2024-10-18T03:50:12.375+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_items.py for tasks to queue
+[2024-10-18T03:50:12.378+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:50:12.377+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:50:13.004+0000] {processor.py:925} INFO - DAG(s) 'insert_items' retrieved from /opt/airflow/dags/insert_items.py
+[2024-10-18T03:50:13.044+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:50:13.044+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T03:50:13.065+0000] {logging_mixin.py:190} INFO - [2024-10-18T03:50:13.065+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_items to 2024-10-17 12:00:00+00:00, run_after=2024-10-18 12:00:00+00:00
+[2024-10-18T03:50:13.079+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_items.py took 0.720 seconds

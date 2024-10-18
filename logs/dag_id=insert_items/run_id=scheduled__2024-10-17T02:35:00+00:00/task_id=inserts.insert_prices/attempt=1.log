@@ -1,0 +1,360 @@
+[2024-10-18T02:57:38.227+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-18T02:57:38.367+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: insert_items.inserts.insert_prices scheduled__2024-10-17T02:35:00+00:00 [queued]>
+[2024-10-18T02:57:38.476+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: insert_items.inserts.insert_prices scheduled__2024-10-17T02:35:00+00:00 [queued]>
+[2024-10-18T02:57:38.478+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2024-10-18T02:57:38.539+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): inserts.insert_prices> on 2024-10-17 02:35:00+00:00
+[2024-10-18T02:57:38.555+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=66) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-10-18T02:57:38.563+0000] {standard_task_runner.py:72} INFO - Started process 74 to run task
+[2024-10-18T02:57:38.562+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'insert_items', 'inserts.insert_prices', 'scheduled__2024-10-17T02:35:00+00:00', '--job-id', '141', '--raw', '--subdir', 'DAGS_FOLDER/insert_items.py', '--cfg-path', '/tmp/tmpftjq3ljb']
+[2024-10-18T02:57:38.576+0000] {standard_task_runner.py:105} INFO - Job 141: Subtask inserts.insert_prices
+[2024-10-18T02:57:41.563+0000] {task_command.py:467} INFO - Running <TaskInstance: insert_items.inserts.insert_prices scheduled__2024-10-17T02:35:00+00:00 [running]> on host a414d3516fe8
+[2024-10-18T02:57:41.750+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='mherszage' AIRFLOW_CTX_DAG_ID='insert_items' AIRFLOW_CTX_TASK_ID='inserts.insert_prices' AIRFLOW_CTX_EXECUTION_DATE='2024-10-17T02:35:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-10-17T02:35:00+00:00'
+[2024-10-18T02:57:41.753+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-18T02:57:43.652+0000] {logging_mixin.py:190} INFO - 2024-10-17
+[2024-10-18T02:57:44.895+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1513783534', 771999, 'ARS', 150, current_timestamp);
+                    
+[2024-10-18T02:57:45.099+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:45.100+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1876671498', 169999, 'ARS', 1, current_timestamp);
+                    
+[2024-10-18T02:57:45.327+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:45.328+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1363095617', 28199, 'ARS', 1, current_timestamp);
+                    
+[2024-10-18T02:57:45.603+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:45.604+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1642598964', 4001, 'ARS', 250, current_timestamp);
+                    
+[2024-10-18T02:57:45.828+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:45.829+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1425634379', 657999, 'ARS', 150, current_timestamp);
+                    
+[2024-10-18T02:57:46.045+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:46.045+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1771015420', 54608.51, 'ARS', 1, current_timestamp);
+                    
+[2024-10-18T02:57:46.255+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:46.257+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1389166937', 7505, 'ARS', 50, current_timestamp);
+                    
+[2024-10-18T02:57:46.487+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:46.488+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1436556685', 776471, 'ARS', 1, current_timestamp);
+                    
+[2024-10-18T02:57:46.708+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:46.709+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1480985544', 9629.1, 'ARS', 50, current_timestamp);
+                    
+[2024-10-18T02:57:46.940+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:46.944+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1455028687', 81179, 'ARS', 1, current_timestamp);
+                    
+[2024-10-18T02:57:47.151+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:47.153+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1422491335', 1643999, 'ARS', 1, current_timestamp);
+                    
+[2024-10-18T02:57:47.381+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:47.383+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1420542199', 169999, 'ARS', 1, current_timestamp);
+                    
+[2024-10-18T02:57:47.626+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:47.626+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1771013260', 34288.98, 'ARS', 1, current_timestamp);
+                    
+[2024-10-18T02:57:47.849+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:47.850+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1438316301', 1519999, 'ARS', 1, current_timestamp);
+                    
+[2024-10-18T02:57:48.078+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:48.083+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1824905578', 135000, 'ARS', 1, current_timestamp);
+                    
+[2024-10-18T02:57:48.304+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:48.305+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1814734538', 1499000, 'ARS', 1, current_timestamp);
+                    
+[2024-10-18T02:57:48.530+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:48.534+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1412433221', 67990, 'ARS', 50, current_timestamp);
+                    
+[2024-10-18T02:57:48.753+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:48.758+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1723436604', 1374999, 'ARS', 250, current_timestamp);
+                    
+[2024-10-18T02:57:48.978+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:48.979+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1420491095', 169999, 'ARS', 250, current_timestamp);
+                    
+[2024-10-18T02:57:49.191+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:49.191+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1735236438', 169999, 'ARS', 250, current_timestamp);
+                    
+[2024-10-18T02:57:49.419+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:49.421+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1842467476', 909000, 'ARS', 1, current_timestamp);
+                    
+[2024-10-18T02:57:49.707+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:49.708+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1454525447', 69999.3, 'ARS', 50, current_timestamp);
+                    
+[2024-10-18T02:57:49.942+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:49.943+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1934887092', 599000, 'ARS', 1, current_timestamp);
+                    
+[2024-10-18T02:57:50.154+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:50.154+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1876044426', 12000, 'ARS', 150, current_timestamp);
+                    
+[2024-10-18T02:57:50.362+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:50.363+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1918224392', 27999, 'ARS', 1, current_timestamp);
+                    
+[2024-10-18T02:57:50.574+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:50.574+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1896057314', 7119, 'ARS', 1, current_timestamp);
+                    
+[2024-10-18T02:57:50.822+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:50.823+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1932107420', 5999, 'ARS', 50, current_timestamp);
+                    
+[2024-10-18T02:57:51.038+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:51.040+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1444880845', 145999, 'ARS', 200, current_timestamp);
+                    
+[2024-10-18T02:57:51.258+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:51.259+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1915925398', 39899.05, 'ARS', 50, current_timestamp);
+                    
+[2024-10-18T02:57:51.484+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:51.485+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA934064691', 26999, 'ARS', 1, current_timestamp);
+                    
+[2024-10-18T02:57:51.729+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:51.732+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA934055466', 42999, 'ARS', 1, current_timestamp);
+                    
+[2024-10-18T02:57:51.960+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:51.962+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1363379415', 598499.37, 'ARS', 150, current_timestamp);
+                    
+[2024-10-18T02:57:52.180+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:52.181+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1432568059', 6906.5, 'ARS', 1, current_timestamp);
+                    
+[2024-10-18T02:57:52.405+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:52.406+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1902022692', 67999, 'ARS', 1, current_timestamp);
+                    
+[2024-10-18T02:57:52.629+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:52.629+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1417840319', 14240.5, 'ARS', 1, current_timestamp);
+                    
+[2024-10-18T02:57:52.864+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:52.864+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1429767130', 34513.22, 'ARS', 1, current_timestamp);
+                    
+[2024-10-18T02:57:53.147+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:53.148+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1422439293', 1599457, 'ARS', 1, current_timestamp);
+                    
+[2024-10-18T02:57:53.363+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:53.364+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1735248328', 174999, 'ARS', 1, current_timestamp);
+                    
+[2024-10-18T02:57:53.591+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:53.593+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1126675691', 20677.5, 'ARS', 1, current_timestamp);
+                    
+[2024-10-18T02:57:53.889+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:53.892+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1433388441', 779999, 'ARS', 1, current_timestamp);
+                    
+[2024-10-18T02:57:54.174+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:54.174+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1269148236', 11987.21, 'ARS', 1, current_timestamp);
+                    
+[2024-10-18T02:57:54.466+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:54.474+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1402640681', 47740, 'ARS', 1, current_timestamp);
+                    
+[2024-10-18T02:57:54.726+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:54.727+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1836994334', 35155, 'ARS', 1, current_timestamp);
+                    
+[2024-10-18T02:57:54.939+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:54.940+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1409364971', 89999, 'ARS', 1, current_timestamp);
+                    
+[2024-10-18T02:57:55.175+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:55.176+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1432766957', 1660000, 'ARS', 1, current_timestamp);
+                    
+[2024-10-18T02:57:55.393+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:55.395+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1367473676', 120899, 'ARS', 1, current_timestamp);
+                    
+[2024-10-18T02:57:55.635+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:55.638+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1392798127', 18041, 'ARS', 1, current_timestamp);
+                    
+[2024-10-18T02:57:55.899+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:55.900+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1854941032', 169999, 'ARS', 100, current_timestamp);
+                    
+[2024-10-18T02:57:56.147+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:56.148+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA820599600', 42848.8, 'ARS', 100, current_timestamp);
+                    
+[2024-10-18T02:57:56.376+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:56.376+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1932707096', 33028, 'ARS', 1, current_timestamp);
+                    
+[2024-10-18T02:57:56.592+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-18T02:57:57.947+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO public.item_prices (item_id, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1513783534', 771999, 'ARS', 150, current_timestamp);
+                    
+[2024-10-18T02:57:57.955+0000] {taskinstance.py:3310} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/python_files/prices/prices.py", line 68, in insert_prices
+    cursor = conn.cursor()
+             ^^^^^^^^^^^^^
+psycopg2.InterfaceError: connection already closed
+[2024-10-18T02:57:58.031+0000] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=insert_items, task_id=inserts.insert_prices, run_id=scheduled__2024-10-17T02:35:00+00:00, execution_date=20241017T023500, start_date=20241018T025738, end_date=20241018T025758
+[2024-10-18T02:57:58.067+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-18T02:57:58.067+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 141 for task inserts.insert_prices (connection already closed; 74)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/cli.py", line 115, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3004, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3158, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3182, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/python_files/prices/prices.py", line 68, in insert_prices
+    cursor = conn.cursor()
+             ^^^^^^^^^^^^^
+psycopg2.InterfaceError: connection already closed
+[2024-10-18T02:57:58.116+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2024-10-18T02:57:58.162+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-10-18T02:57:58.163+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,120 @@
+[2024-10-16T16:11:30.988+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-16T16:11:31.023+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: insert_items.inserts.insert_items scheduled__2024-10-16T15:35:00+00:00 [queued]>
+[2024-10-16T16:11:31.044+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: insert_items.inserts.insert_items scheduled__2024-10-16T15:35:00+00:00 [queued]>
+[2024-10-16T16:11:31.044+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2024-10-16T16:11:31.070+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): inserts.insert_items> on 2024-10-16 15:35:00+00:00
+[2024-10-16T16:11:31.081+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=65) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-10-16T16:11:31.102+0000] {standard_task_runner.py:72} INFO - Started process 73 to run task
+[2024-10-16T16:11:31.096+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'insert_items', 'inserts.insert_items', 'scheduled__2024-10-16T15:35:00+00:00', '--job-id', '27', '--raw', '--subdir', 'DAGS_FOLDER/insert_items.py', '--cfg-path', '/tmp/tmpa14gf9_t']
+[2024-10-16T16:11:31.117+0000] {standard_task_runner.py:105} INFO - Job 27: Subtask inserts.insert_items
+[2024-10-16T16:11:31.291+0000] {task_command.py:467} INFO - Running <TaskInstance: insert_items.inserts.insert_items scheduled__2024-10-16T15:35:00+00:00 [running]> on host 2109dd405c1b
+[2024-10-16T16:11:33.592+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='mherszage' AIRFLOW_CTX_DAG_ID='insert_items' AIRFLOW_CTX_TASK_ID='inserts.insert_items' AIRFLOW_CTX_EXECUTION_DATE='2024-10-16T15:35:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-10-16T15:35:00+00:00'
+[2024-10-16T16:11:33.593+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-16T16:11:36.341+0000] {logging_mixin.py:190} INFO - Id: MLA1420542199, Title: Sony Playstation Dualsense Cfi-zct1w Joystick Inalámbrico Midnight Black, Price: 169999
+[2024-10-16T16:11:36.987+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-16T16:11:36.987+0000] {logging_mixin.py:190} INFO - Id: MLA1513783534, Title: Consola Playstation Ps4 1tb God Of War Ragnarok Bundle, Price: 771999
+[2024-10-16T16:11:37.393+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-16T16:11:37.393+0000] {logging_mixin.py:190} INFO - Id: MLA1455028687, Title: Gamepad Redragon Harrow Pro Wireless G808pro Joystick Pc Ps3 Color Negro, Price: 72569
+[2024-10-16T16:11:37.766+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-16T16:11:37.771+0000] {logging_mixin.py:190} INFO - Id: MLA1642598964, Title: Cable Tcon Carga Rapida Joystick Ps4 Usb Solucion Pin Carga, Price: 4001
+[2024-10-16T16:11:38.108+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-16T16:11:38.110+0000] {logging_mixin.py:190} INFO - Id: MLA1425892217, Title: Sony Playstation 5 825gb Standard Color Blanco Y Negro, Price: 1374999
+[2024-10-16T16:11:38.473+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-16T16:11:38.474+0000] {logging_mixin.py:190} INFO - Id: MLA1771013260, Title: Joystick Redragon Saturn G807 Negro, Price: 34288.98
+[2024-10-16T16:11:38.913+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-16T16:11:38.914+0000] {logging_mixin.py:190} INFO - Id: MLA1417840319, Title: Auriculares Bluetooth In-ear F9-5 Negro Inalámbricos, Price: 14240.5
+[2024-10-16T16:11:39.375+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-16T16:11:39.377+0000] {logging_mixin.py:190} INFO - Id: MLA1425634379, Title: Consola Sony Ps4 1tb + Juego God Of War Ragnarok, Price: 657999
+[2024-10-16T16:11:39.742+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-16T16:11:39.742+0000] {logging_mixin.py:190} INFO - Id: MLA1771015420, Title: Joystick Inalámbrico Redragon Harrow G808 Negro, Price: 54608.51
+[2024-10-16T16:11:40.143+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-16T16:11:40.144+0000] {logging_mixin.py:190} INFO - Id: MLA1452087571, Title: Control Inalámbrico Dualsense Para Ps5 Gray Camouflage, Price: 119999
+[2024-10-16T16:11:40.537+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-16T16:11:40.538+0000] {logging_mixin.py:190} INFO - Id: MLA1438316301, Title: Consola Ps5 Slim Estándar + Juego Ratchet & Clank Y Returnal Color Blanco, Price: 1519999
+[2024-10-16T16:11:40.887+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-16T16:11:40.889+0000] {logging_mixin.py:190} INFO - Id: MLA1923504016, Title: Auriculares Inalámbricos Jbl Tune 520bt Negro, Price: 106499
+[2024-10-16T16:11:41.217+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-16T16:11:41.218+0000] {logging_mixin.py:190} INFO - Id: MLA1436556685, Title: Nintendo Switch Oled 64gb Standard  Color Neón, Price: 849999
+[2024-10-16T16:11:41.580+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-16T16:11:41.586+0000] {logging_mixin.py:190} INFO - Id: MLA1363095617, Title: Joystick Gamer Inalámbrico Netmak 5en1 Pc Ps3 Ps4 Danger Color Negro, Price: 28199
+[2024-10-16T16:11:41.933+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-16T16:11:41.934+0000] {logging_mixin.py:190} INFO - Id: MLA1452539243, Title: Nintendo Lite Switch Lite 32gb Standard  Color Coral 2019, Price: 327274.05
+[2024-10-16T16:11:42.286+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-16T16:11:42.287+0000] {logging_mixin.py:190} INFO - Id: MLA1934620406, Title: Microsoft Xbox 360 Controller For Windows - Usb, Price: 31570
+[2024-10-16T16:11:42.636+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-16T16:11:42.638+0000] {logging_mixin.py:190} INFO - Id: MLA1454525447, Title: Joystick Inalámbrico Sony Playstation Dualshock 4 Ps4 Jet Black, Price: 69999.3
+[2024-10-16T16:11:43.021+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-16T16:11:43.022+0000] {logging_mixin.py:190} INFO - Id: MLA1422452531, Title: Consola Xbox Series S 512gb Digital Blanco, Price: 919999
+[2024-10-16T16:11:43.365+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-16T16:11:43.366+0000] {logging_mixin.py:190} INFO - Id: MLA1420491095, Title: Joystick Inalámbrico Dualsense Ps5 Original Cosmic Red, Price: 169999
+[2024-10-16T16:11:43.718+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-16T16:11:43.720+0000] {logging_mixin.py:190} INFO - Id: MLA1932107420, Title: Consola Brick Game 9999 In 1 Standard  Color Rojo 1980, Price: 5999
+[2024-10-16T16:11:44.147+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-16T16:11:44.147+0000] {logging_mixin.py:190} INFO - Id: MLA934064691, Title: Joystick Redragon Saturn G807 Negro, Price: 26999
+[2024-10-16T16:11:44.551+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-16T16:11:44.552+0000] {logging_mixin.py:190} INFO - Id: MLA1426112753, Title: Soporte Base Vertical Para Ps5 Slim Con Rejillas Ventilación, Price: 7139.44
+[2024-10-16T16:11:45.033+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-16T16:11:45.034+0000] {logging_mixin.py:190} INFO - Id: MLA1439039201, Title: Joystick Pc Usb Gamepad Usb-208 Pc Notebook Color Negro, Price: 10499
+[2024-10-16T16:11:45.377+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-16T16:11:45.378+0000] {logging_mixin.py:190} INFO - Id: MLA1422491335, Title: Sony Playstation 5 Slim 1tb Extra Dualsense Controller  Color Blanco 2023, Price: 1644999
+[2024-10-16T16:11:45.738+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-16T16:11:45.744+0000] {logging_mixin.py:190} INFO - Id: MLA1824905578, Title: Kit 2 Microfonos Inalambricos Boya By-v20  2.4ghz Usb Tipo C Color Negro, Price: 135000
+[2024-10-16T16:11:46.090+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-16T16:11:46.092+0000] {logging_mixin.py:190} INFO - Id: MLA1723436604, Title: Sony Playstation 5 825gb God Of War Ragnarok Bundle Color Blanco/negro, Price: 1374999
+[2024-10-16T16:11:46.454+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-16T16:11:46.454+0000] {logging_mixin.py:190} INFO - Id: MLA1429767130, Title: Joystick Inalámbrico Para Xbox 360 Con Receptor Usb Y Bluetooth Compatible Con Ps3 Android Pc Seisa Njx312, Price: 34513.22
+[2024-10-16T16:11:46.823+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-16T16:11:46.823+0000] {logging_mixin.py:190} INFO - Id: MLA1735236438, Title: Joystick Inalámbrico Dualsense Ps5 Original Galactic Purple, Price: 169999
+[2024-10-16T16:11:47.241+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-16T16:11:47.243+0000] {logging_mixin.py:190} INFO - Id: MLA1918224392, Title: Consola Noga Dos Joystick Y Pistola Ng-fg01 8bit Color Negro, Price: 27999
+[2024-10-16T16:11:47.606+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-16T16:11:47.607+0000] {logging_mixin.py:190} INFO - Id: MLA1440271167, Title: Joystick Para P4 Pc Control Preciso Y Estilo Personalizado Giroscopio Led Rgb Dehuka Modelo Hs-ps4290w Blanco, Price: 56999.05
+[2024-10-16T16:11:47.950+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-16T16:11:47.951+0000] {logging_mixin.py:190} INFO - Id: MLA934055466, Title: Joystick Inalámbrico Redragon Harrow G808 Negro, Price: 42999
+[2024-10-16T16:11:48.358+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-16T16:11:48.359+0000] {logging_mixin.py:190} INFO - Id: MLA1814734538, Title: Sony Playstation 5 Slim 1tb Standard  Color Blanco 2022, Price: 1499000
+[2024-10-16T16:11:48.734+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-16T16:11:48.735+0000] {logging_mixin.py:190} INFO - Id: MLA1389166937, Title: Adaptador Conversor Playstation2 A Hdmi C/audio 1422b, Price: 7505
+[2024-10-16T16:11:49.124+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-16T16:11:49.125+0000] {logging_mixin.py:190} INFO - Id: MLA1444880845, Title: Joystick Inalámbrico Dualsense Ps5 Sterling Silver, Price: 145999
+[2024-10-16T16:11:49.489+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-16T16:11:49.491+0000] {logging_mixin.py:190} INFO - Id: MLA1422439293, Title: Microsoft Xbox Series X 1tb Ssd 120 Hz 4k Color Negro, Price: 1599457
+[2024-10-16T16:11:49.892+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-16T16:11:49.895+0000] {logging_mixin.py:190} INFO - Id: MLA1409364971, Title: Auriculares Inalámbricos Jbl Tune  520bt Blanco, Price: 89999
+[2024-10-16T16:11:50.226+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-16T16:11:50.227+0000] {logging_mixin.py:190} INFO - Id: MLA1363379415, Title: Consola Playstation 4 Ps4 Standard + God Of War Ragnarök, Price: 598499.37
+[2024-10-16T16:11:50.563+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-16T16:11:50.563+0000] {logging_mixin.py:190} INFO - Id: MLA1735248328, Title: Controle Sony Dualsense Ps5 Sem Fio - Starlight Blue Cfi-zct1j02 , Price: 174999
+[2024-10-16T16:11:50.945+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-16T16:11:50.946+0000] {logging_mixin.py:190} INFO - Id: MLA1403544371, Title: Joystick Inalámbrico Haxly Claw Hx-gp9076 Negro, Price: 38159
+[2024-10-16T16:11:51.452+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-16T16:11:51.453+0000] {logging_mixin.py:190} INFO - Id: MLA1933005728, Title: Joystick Inalámbrico Compatible Con Ps4 Negro, Price: 29000
+[2024-10-16T16:11:51.804+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-16T16:11:51.804+0000] {logging_mixin.py:190} INFO - Id: MLA1902022692, Title: Consola Video Juegos Apevtech 16 Bit  Color Negro, Price: 67999
+[2024-10-16T16:11:52.169+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-16T16:11:52.171+0000] {logging_mixin.py:190} INFO - Id: MLA1876554140, Title: Volante Con Pedalera Profesional  Logitech G29 Playstation 5 / Playstation 4 / Pc, Price: 870198
+[2024-10-16T16:11:52.565+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-16T16:11:52.566+0000] {logging_mixin.py:190} INFO - Id: MLA1896057314, Title: Tarjeta De Memoria Imou Microsd Sdhc S1 C10 Interior 64gb, Price: 7119
+[2024-10-16T16:11:52.905+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-16T16:11:52.907+0000] {logging_mixin.py:190} INFO - Id: MLA1433388441, Title: Nintendo Switch Oled 64gb Standard Color Blanco/negro, Price: 789999
+[2024-10-16T16:11:53.290+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-16T16:11:53.292+0000] {logging_mixin.py:190} INFO - Id: MLA1915925398, Title: Joystick Inalámbrico Para P4 Bluetooth Netmak P401 Negro, Price: 39899.05
+[2024-10-16T16:11:53.645+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-16T16:11:53.647+0000] {logging_mixin.py:190} INFO - Id: MLA1848666858, Title: Memoria Micro Sd 128 Gb Hiksemi Con Adaptador Hs-tf-c1, Price: 11849
+[2024-10-16T16:11:53.999+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-16T16:11:54.001+0000] {logging_mixin.py:190} INFO - Id: MLA1402640681, Title: Consola Para Cartuchos Sega 16 Bits + 2 Joysticks 6 Botones, Price: 47740
+[2024-10-16T16:11:54.361+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-16T16:11:54.362+0000] {logging_mixin.py:190} INFO - Id: MLA1854941032, Title: Joystick Inalámbrico Sony Playstation Dualsense Cfi-zct1w Nova Pink, Price: 169999
+[2024-10-16T16:11:54.705+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-16T16:11:54.706+0000] {logging_mixin.py:190} INFO - Id: MLA1126675691, Title: Joystick Inalámbrico Noganet Ng-2go1 Negro, Price: 20677.5
+[2024-10-16T16:11:55.037+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-16T16:11:55.209+0000] {logging_mixin.py:190} INFO - Results committed
+[2024-10-16T16:11:55.218+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-10-16T16:11:55.261+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-16T16:11:55.262+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=insert_items, task_id=inserts.insert_items, run_id=scheduled__2024-10-16T15:35:00+00:00, execution_date=20241016T153500, start_date=20241016T161131, end_date=20241016T161155
+[2024-10-16T16:11:55.343+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-10-16T16:11:56.176+0000] {standard_task_runner.py:217} INFO - Process not found (most likely exited), stop collecting metrics
+[2024-10-16T16:11:56.196+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-10-16T16:11:56.199+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
