@@ -1,0 +1,43 @@
+[2024-10-18T04:11:28.261+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-18T04:11:28.328+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: insert_items.extract_data.create_table_prices manual__2024-10-18T04:11:21.569002+00:00 [queued]>
+[2024-10-18T04:11:28.356+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: insert_items.extract_data.create_table_prices manual__2024-10-18T04:11:21.569002+00:00 [queued]>
+[2024-10-18T04:11:28.358+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2024-10-18T04:11:28.401+0000] {taskinstance.py:2888} INFO - Executing <Task(PostgresOperator): extract_data.create_table_prices> on 2024-10-18 04:11:21.569002+00:00
+[2024-10-18T04:11:28.443+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=1110) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-10-18T04:11:28.441+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'insert_items', 'extract_data.create_table_prices', 'manual__2024-10-18T04:11:21.569002+00:00', '--job-id', '170', '--raw', '--subdir', 'DAGS_FOLDER/insert_items.py', '--cfg-path', '/tmp/tmp1cjzi82w']
+[2024-10-18T04:11:28.447+0000] {standard_task_runner.py:72} INFO - Started process 1114 to run task
+[2024-10-18T04:11:28.451+0000] {standard_task_runner.py:105} INFO - Job 170: Subtask extract_data.create_table_prices
+[2024-10-18T04:11:40.005+0000] {task_command.py:467} INFO - Running <TaskInstance: insert_items.extract_data.create_table_prices manual__2024-10-18T04:11:21.569002+00:00 [running]> on host a414d3516fe8
+[2024-10-18T04:11:47.160+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='mherszage' AIRFLOW_CTX_DAG_ID='insert_items' AIRFLOW_CTX_TASK_ID='extract_data.create_table_prices' AIRFLOW_CTX_EXECUTION_DATE='2024-10-18T04:11:21.569002+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-18T04:11:21.569002+00:00'
+[2024-10-18T04:11:47.197+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-18T04:11:47.463+0000] {sql.py:266} INFO - Executing: CREATE TABLE IF NOT EXISTS public.item_prices
+(
+    item_id            varchar(256),
+    condition          varchar(256),
+    price              int,
+    currency           varchar(256),
+    available_quantity int,
+    created_at         timestamp
+)
+[2024-10-18T04:11:47.692+0000] {base.py:84} INFO - Retrieving connection 'redshift_default'
+[2024-10-18T04:11:47.751+0000] {job.py:229} INFO - Heartbeat recovered after 13.82 seconds
+[2024-10-18T04:11:47.862+0000] {base.py:84} INFO - Retrieving connection 'redshift_default'
+[2024-10-18T04:11:49.917+0000] {sql.py:509} INFO - Running statement: CREATE TABLE IF NOT EXISTS public.item_prices
+(
+    item_id            varchar(256),
+    condition          varchar(256),
+    price              int,
+    currency           varchar(256),
+    available_quantity int,
+    created_at         timestamp
+), parameters: None
+[2024-10-18T04:11:50.638+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-18T04:11:50.642+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=insert_items, task_id=extract_data.create_table_prices, run_id=manual__2024-10-18T04:11:21.569002+00:00, execution_date=20241018T041121, start_date=20241018T041128, end_date=20241018T041150
+[2024-10-18T04:11:50.827+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-10-18T04:11:50.966+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/models/baseoperator.py:1378: AirflowProviderDeprecationWarning: Call to deprecated class PostgresOperator. (Please use `***.providers.common.sql.operators.sql.SQLExecuteQueryOperator`.Also, you can provide `hook_params={'schema': <database>}`.)
+  result = cls.__new__(cls)
+
+[2024-10-18T04:11:51.075+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-10-18T04:11:51.077+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

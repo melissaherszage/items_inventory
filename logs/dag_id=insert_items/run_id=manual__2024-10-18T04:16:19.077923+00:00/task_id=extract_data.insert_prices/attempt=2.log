@@ -1,0 +1,22 @@
+[2024-10-18T04:18:28.397+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-18T04:18:28.415+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: insert_items.extract_data.insert_prices manual__2024-10-18T04:16:19.077923+00:00 [queued]>
+[2024-10-18T04:18:28.420+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: insert_items.extract_data.insert_prices manual__2024-10-18T04:16:19.077923+00:00 [queued]>
+[2024-10-18T04:18:28.420+0000] {taskinstance.py:2865} INFO - Starting attempt 2 of 2
+[2024-10-18T04:18:28.427+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): extract_data.insert_prices> on 2024-10-18 04:16:19.077923+00:00
+[2024-10-18T04:18:28.434+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=1255) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-10-18T04:18:28.435+0000] {standard_task_runner.py:72} INFO - Started process 1257 to run task
+[2024-10-18T04:18:28.437+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'insert_items', 'extract_data.insert_prices', 'manual__2024-10-18T04:16:19.077923+00:00', '--job-id', '184', '--raw', '--subdir', 'DAGS_FOLDER/insert_items.py', '--cfg-path', '/tmp/tmp_k_wguqq']
+[2024-10-18T04:18:28.442+0000] {standard_task_runner.py:105} INFO - Job 184: Subtask extract_data.insert_prices
+[2024-10-18T04:18:28.826+0000] {task_command.py:467} INFO - Running <TaskInstance: insert_items.extract_data.insert_prices manual__2024-10-18T04:16:19.077923+00:00 [running]> on host a414d3516fe8
+[2024-10-18T04:18:28.882+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='mherszage' AIRFLOW_CTX_DAG_ID='insert_items' AIRFLOW_CTX_TASK_ID='extract_data.insert_prices' AIRFLOW_CTX_EXECUTION_DATE='2024-10-18T04:16:19.077923+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-18T04:16:19.077923+00:00'
+[2024-10-18T04:18:28.883+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-18T04:18:28.903+0000] {base.py:84} INFO - Retrieving connection 'redshift_default'
+[2024-10-18T04:18:30.677+0000] {logging_mixin.py:190} INFO - 2024-10-18
+[2024-10-18T04:18:30.684+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-10-18T04:18:30.745+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-18T04:18:30.746+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=insert_items, task_id=extract_data.insert_prices, run_id=manual__2024-10-18T04:16:19.077923+00:00, execution_date=20241018T041619, start_date=20241018T041828, end_date=20241018T041830
+[2024-10-18T04:18:30.812+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-10-18T04:18:31.175+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-10-18T04:18:31.176+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

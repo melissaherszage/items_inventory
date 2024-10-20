@@ -1,0 +1,9 @@
+pandas==2.1.4
+requests==2.31.0
+requests-toolbelt==1.0.0
+SQLAlchemy==1.4.49
+sqlalchemy-redshift==0.8.14
+sqlparse==0.4.4
+psycopg2-binary==2.9.9
+pytest==8.3.3
+python-dotenv ==0.21.0
