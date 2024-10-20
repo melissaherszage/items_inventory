@@ -12,7 +12,7 @@ def insert_items():
     category = 'MLA1144'
 
     url = f'https://api.mercadolibre.com/sites/{site_id}/search?category={category}'
-    headers = {'Authorization': f'Bearer {os.getenv('access_token')}'}
+    headers = {'Authorization': f'Bearer {os.getenv('API_KEY')}'}
 
     response = requests.get(url, headers=headers)
 
