@@ -4951,3 +4951,801 @@ jinja2.exceptions.TemplateNotFound: dags/sql_files/l2/dim_item.sql
 [2024-10-21T02:57:06.927+0000] {logging_mixin.py:190} INFO - [2024-10-21T02:57:06.927+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-10-21T02:57:06.979+0000] {logging_mixin.py:190} INFO - [2024-10-21T02:57:06.979+0000] {dag.py:4180} INFO - Setting next_dagrun for elt to 2024-10-20 12:00:00+00:00, run_after=2024-10-21 12:00:00+00:00
 [2024-10-21T02:57:07.022+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 12.780 seconds
+[2024-10-21T03:04:19.443+0000] {processor.py:186} INFO - Started process (PID=203) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:04:19.451+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:04:19.461+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:04:19.460+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:04:19.921+0000] {logging_mixin.py:190} INFO - Searching in path: dags/sql_files/l2
+[2024-10-21T03:04:19.922+0000] {logging_mixin.py:190} INFO - SQL files found: ['fact_items_information.sql', 'dim_item.sql']
+[2024-10-21T03:04:19.928+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:04:19.926+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: dags/sql_files/l2/fact_items_information.sql
+[2024-10-21T03:04:19.928+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:04:19.928+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: dags/sql_files/l2/dim_item.sql
+[2024-10-21T03:04:19.931+0000] {processor.py:925} INFO - DAG(s) 'elt' retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:04:19.958+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:04:19.958+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T03:04:19.989+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:04:19.988+0000] {dag.py:4180} INFO - Setting next_dagrun for elt to 2024-10-20 12:00:00+00:00, run_after=2024-10-21 12:00:00+00:00
+[2024-10-21T03:04:20.006+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 0.577 seconds
+[2024-10-21T03:04:23.588+0000] {processor.py:186} INFO - Started process (PID=205) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:04:23.591+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:04:23.601+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:04:23.599+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:04:24.769+0000] {logging_mixin.py:190} INFO - Searching in path: dags/sql_files/l2
+[2024-10-21T03:04:24.774+0000] {logging_mixin.py:190} INFO - SQL files found: ['fact_items_information.sql', 'dim_item.sql']
+[2024-10-21T03:04:24.817+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:04:24.809+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: dags/sql_files/l2/fact_items_information.sql
+[2024-10-21T03:04:24.821+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:04:24.820+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: dags/sql_files/l2/dim_item.sql
+[2024-10-21T03:04:24.839+0000] {processor.py:925} INFO - DAG(s) 'elt' retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:04:24.888+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:04:24.888+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T03:04:24.912+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:04:24.911+0000] {dag.py:4180} INFO - Setting next_dagrun for elt to 2024-10-20 12:00:00+00:00, run_after=2024-10-21 12:00:00+00:00
+[2024-10-21T03:04:24.938+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 1.385 seconds
+[2024-10-21T03:04:55.630+0000] {processor.py:186} INFO - Started process (PID=223) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:04:55.631+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:04:55.640+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:04:55.639+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:04:56.167+0000] {logging_mixin.py:190} INFO - Searching in path: dags/sql_files/l2
+[2024-10-21T03:04:56.168+0000] {logging_mixin.py:190} INFO - SQL files found: ['fact_items_information.sql', 'dim_item.sql']
+[2024-10-21T03:04:56.176+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:04:56.174+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: dags/sql_files/l2/fact_items_information.sql
+[2024-10-21T03:04:56.176+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:04:56.176+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: dags/sql_files/l2/dim_item.sql
+[2024-10-21T03:04:56.181+0000] {processor.py:925} INFO - DAG(s) 'elt' retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:04:56.214+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:04:56.213+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T03:04:56.238+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:04:56.238+0000] {dag.py:4180} INFO - Setting next_dagrun for elt to 2024-10-20 12:00:00+00:00, run_after=2024-10-21 12:00:00+00:00
+[2024-10-21T03:04:56.251+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 0.634 seconds
+[2024-10-21T03:05:26.417+0000] {processor.py:186} INFO - Started process (PID=231) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:05:26.425+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:05:26.440+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:05:26.439+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:05:27.090+0000] {logging_mixin.py:190} INFO - Searching in path: sql_files/l2
+[2024-10-21T03:05:27.093+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:05:27.091+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/elt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/elt.py", line 64, in <module>
+    sql_paths = get_dag_sql_files(dag_folder='l2')
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/python_files/lib/sql_folder.py", line 19, in get_dag_sql_files
+    sql_files = [f for f in os.listdir(path) if f.endswith('.sql')]
+                            ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'sql_files/l2'
+[2024-10-21T03:05:27.094+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:05:27.124+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 0.733 seconds
+[2024-10-21T03:05:57.951+0000] {processor.py:186} INFO - Started process (PID=239) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:05:57.955+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:05:57.965+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:05:57.964+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:05:58.496+0000] {logging_mixin.py:190} INFO - Searching in path: sql_files/l2
+[2024-10-21T03:05:58.499+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:05:58.497+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/elt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/elt.py", line 64, in <module>
+    sql_paths = get_dag_sql_files(dag_folder='l2')
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/python_files/lib/sql_folder.py", line 19, in get_dag_sql_files
+    sql_files = [f for f in os.listdir(path) if f.endswith('.sql')]
+                            ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'sql_files/l2'
+[2024-10-21T03:05:58.500+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:05:58.541+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 0.610 seconds
+[2024-10-21T03:06:29.336+0000] {processor.py:186} INFO - Started process (PID=247) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:06:29.341+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:06:29.349+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:06:29.345+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:06:29.863+0000] {logging_mixin.py:190} INFO - Searching in path: sql_files/l2
+[2024-10-21T03:06:29.867+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:06:29.864+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/elt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/elt.py", line 64, in <module>
+    sql_paths = get_dag_sql_files(dag_folder='l2')
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/python_files/lib/sql_folder.py", line 19, in get_dag_sql_files
+    sql_files = [f for f in os.listdir(path) if f.endswith('.sql')]
+                            ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'sql_files/l2'
+[2024-10-21T03:06:29.868+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:06:29.896+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 0.576 seconds
+[2024-10-21T03:07:00.486+0000] {processor.py:186} INFO - Started process (PID=255) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:07:00.488+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:07:00.490+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:07:00.489+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:07:01.086+0000] {logging_mixin.py:190} INFO - Searching in path: sql_files/l2
+[2024-10-21T03:07:01.092+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:07:01.087+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/elt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/elt.py", line 64, in <module>
+    sql_paths = get_dag_sql_files(dag_folder='l2')
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/python_files/lib/sql_folder.py", line 19, in get_dag_sql_files
+    sql_files = [f for f in os.listdir(path) if f.endswith('.sql')]
+                            ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'sql_files/l2'
+[2024-10-21T03:07:01.092+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:07:01.149+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 0.674 seconds
+[2024-10-21T03:07:31.687+0000] {processor.py:186} INFO - Started process (PID=263) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:07:31.694+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:07:31.699+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:07:31.697+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:07:32.143+0000] {logging_mixin.py:190} INFO - Searching in path: sql_files/l2
+[2024-10-21T03:07:32.147+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:07:32.143+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/elt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/elt.py", line 64, in <module>
+    sql_paths = get_dag_sql_files(dag_folder='l2')
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/python_files/lib/sql_folder.py", line 19, in get_dag_sql_files
+    sql_files = [f for f in os.listdir(path) if f.endswith('.sql')]
+                            ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'sql_files/l2'
+[2024-10-21T03:07:32.147+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:07:32.169+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 0.504 seconds
+[2024-10-21T03:08:02.679+0000] {processor.py:186} INFO - Started process (PID=271) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:08:02.681+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:08:02.683+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:08:02.682+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:08:03.130+0000] {logging_mixin.py:190} INFO - Searching in path: sql_files/l2
+[2024-10-21T03:08:03.135+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:08:03.131+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/elt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/elt.py", line 64, in <module>
+    sql_paths = get_dag_sql_files(dag_folder='l2')
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/python_files/lib/sql_folder.py", line 19, in get_dag_sql_files
+    sql_files = [f for f in os.listdir(path) if f.endswith('.sql')]
+                            ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'sql_files/l2'
+[2024-10-21T03:08:03.135+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:08:03.185+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 0.518 seconds
+[2024-10-21T03:08:33.717+0000] {processor.py:186} INFO - Started process (PID=279) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:08:33.719+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:08:33.721+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:08:33.720+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:08:34.276+0000] {logging_mixin.py:190} INFO - Searching in path: sql_files/l2
+[2024-10-21T03:08:34.279+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:08:34.276+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/elt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/elt.py", line 64, in <module>
+    sql_paths = get_dag_sql_files(dag_folder='l2')
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/python_files/lib/sql_folder.py", line 19, in get_dag_sql_files
+    sql_files = [f for f in os.listdir(path) if f.endswith('.sql')]
+                            ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'sql_files/l2'
+[2024-10-21T03:08:34.280+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:08:34.312+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 0.616 seconds
+[2024-10-21T03:09:04.779+0000] {processor.py:186} INFO - Started process (PID=287) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:09:04.780+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:09:04.784+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:09:04.783+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:09:05.165+0000] {logging_mixin.py:190} INFO - Searching in path: sql_files/l2
+[2024-10-21T03:09:05.169+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:09:05.165+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/elt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/elt.py", line 64, in <module>
+    sql_paths = get_dag_sql_files(dag_folder='l2')
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/python_files/lib/sql_folder.py", line 19, in get_dag_sql_files
+    sql_files = [f for f in os.listdir(path) if f.endswith('.sql')]
+                            ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'sql_files/l2'
+[2024-10-21T03:09:05.169+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:09:05.211+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 0.454 seconds
+[2024-10-21T03:09:35.473+0000] {processor.py:186} INFO - Started process (PID=294) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:09:35.475+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:09:35.477+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:09:35.477+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:09:36.113+0000] {logging_mixin.py:190} INFO - Searching in path: dags/sql_files/l2
+[2024-10-21T03:09:36.114+0000] {logging_mixin.py:190} INFO - SQL files found: ['fact_items_information.sql', 'dim_item.sql']
+[2024-10-21T03:09:36.129+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:09:36.125+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: dags/sql_files/l2/fact_items_information.sql
+[2024-10-21T03:09:36.130+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:09:36.129+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: dags/sql_files/l2/dim_item.sql
+[2024-10-21T03:09:36.140+0000] {processor.py:925} INFO - DAG(s) 'elt' retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:09:36.481+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:09:36.481+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T03:09:36.520+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:09:36.519+0000] {dag.py:4180} INFO - Setting next_dagrun for elt to 2024-10-20 12:00:00+00:00, run_after=2024-10-21 12:00:00+00:00
+[2024-10-21T03:09:36.546+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 1.103 seconds
+[2024-10-21T03:10:07.436+0000] {processor.py:186} INFO - Started process (PID=306) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:10:07.439+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:10:07.450+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:10:07.448+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:10:08.556+0000] {logging_mixin.py:190} INFO - Searching in path: dags/sql_files/l2
+[2024-10-21T03:10:08.557+0000] {logging_mixin.py:190} INFO - SQL files found: ['fact_items_information.sql', 'dim_item.sql']
+[2024-10-21T03:10:08.592+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:10:08.578+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: dags/sql_files/l2/fact_items_information.sql
+[2024-10-21T03:10:08.593+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:10:08.592+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: dags/sql_files/l2/dim_item.sql
+[2024-10-21T03:10:08.604+0000] {processor.py:925} INFO - DAG(s) 'elt' retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:10:08.681+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:10:08.681+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T03:10:08.758+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:10:08.757+0000] {dag.py:4180} INFO - Setting next_dagrun for elt to 2024-10-20 12:00:00+00:00, run_after=2024-10-21 12:00:00+00:00
+[2024-10-21T03:10:08.806+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 1.404 seconds
+[2024-10-21T03:10:40.133+0000] {processor.py:186} INFO - Started process (PID=314) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:10:40.145+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:10:40.178+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:10:40.170+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:10:44.239+0000] {logging_mixin.py:190} INFO - Searching in path: dags/sql_files/l2
+[2024-10-21T03:10:44.246+0000] {logging_mixin.py:190} INFO - SQL files found: ['fact_items_information.sql', 'dim_item.sql']
+[2024-10-21T03:10:44.419+0000] {processor.py:925} INFO - DAG(s) 'elt' retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:10:45.888+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:10:45.850+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T03:10:46.081+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:10:46.080+0000] {dag.py:4180} INFO - Setting next_dagrun for elt to 2024-10-20 12:00:00+00:00, run_after=2024-10-21 12:00:00+00:00
+[2024-10-21T03:10:46.222+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 6.241 seconds
+[2024-10-21T03:11:17.184+0000] {processor.py:186} INFO - Started process (PID=326) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:11:17.214+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:11:17.243+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:11:17.239+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:11:21.528+0000] {logging_mixin.py:190} INFO - Searching in path: dags/sql_files/l2
+[2024-10-21T03:11:21.538+0000] {logging_mixin.py:190} INFO - SQL files found: ['fact_items_information.sql', 'dim_item.sql']
+[2024-10-21T03:11:21.740+0000] {processor.py:925} INFO - DAG(s) 'elt' retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:11:22.339+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:11:22.332+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T03:11:22.551+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:11:22.550+0000] {dag.py:4180} INFO - Setting next_dagrun for elt to 2024-10-20 12:00:00+00:00, run_after=2024-10-21 12:00:00+00:00
+[2024-10-21T03:11:22.692+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 5.760 seconds
+[2024-10-21T03:11:53.128+0000] {processor.py:186} INFO - Started process (PID=334) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:11:53.133+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:11:53.143+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:11:53.140+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:11:54.507+0000] {logging_mixin.py:190} INFO - Searching in path: dags/sql_files/l2
+[2024-10-21T03:11:54.508+0000] {logging_mixin.py:190} INFO - SQL files found: ['fact_items_information.sql', 'dim_item.sql']
+[2024-10-21T03:11:54.535+0000] {processor.py:925} INFO - DAG(s) 'elt' retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:11:54.598+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:11:54.598+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T03:11:54.641+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:11:54.641+0000] {dag.py:4180} INFO - Setting next_dagrun for elt to 2024-10-20 12:00:00+00:00, run_after=2024-10-21 12:00:00+00:00
+[2024-10-21T03:11:54.663+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 1.588 seconds
+[2024-10-21T03:12:25.170+0000] {processor.py:186} INFO - Started process (PID=341) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:12:25.179+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:12:25.197+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:12:25.191+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:12:27.401+0000] {logging_mixin.py:190} INFO - Searching in path: dags/sql_files/l2
+[2024-10-21T03:12:27.411+0000] {logging_mixin.py:190} INFO - SQL files found: ['fact_items_information.sql', 'dim_item.sql']
+[2024-10-21T03:12:27.491+0000] {processor.py:925} INFO - DAG(s) 'elt' retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:12:27.661+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:12:27.661+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T03:12:27.767+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:12:27.767+0000] {dag.py:4180} INFO - Setting next_dagrun for elt to 2024-10-20 12:00:00+00:00, run_after=2024-10-21 12:00:00+00:00
+[2024-10-21T03:12:27.838+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 2.742 seconds
+[2024-10-21T03:12:59.063+0000] {processor.py:186} INFO - Started process (PID=353) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:12:59.070+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:12:59.112+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:12:59.101+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:13:20.875+0000] {logging_mixin.py:190} INFO - Searching in path: dags/sql_files/l2
+[2024-10-21T03:13:20.882+0000] {logging_mixin.py:190} INFO - SQL files found: ['fact_items_information.sql', 'dim_item.sql']
+[2024-10-21T03:13:20.983+0000] {processor.py:925} INFO - DAG(s) 'elt' retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:13:21.164+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:13:21.163+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T03:13:21.324+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:13:21.322+0000] {dag.py:4180} INFO - Setting next_dagrun for elt to 2024-10-20 12:00:00+00:00, run_after=2024-10-21 12:00:00+00:00
+[2024-10-21T03:13:21.381+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 22.391 seconds
+[2024-10-21T03:13:52.887+0000] {processor.py:186} INFO - Started process (PID=367) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:13:52.923+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:13:53.084+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:13:53.060+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:14:00.527+0000] {logging_mixin.py:190} INFO - Searching in path: dags/sql_files/l2
+[2024-10-21T03:14:00.537+0000] {logging_mixin.py:190} INFO - SQL files found: ['fact_items_information.sql', 'dim_item.sql']
+[2024-10-21T03:14:00.594+0000] {processor.py:925} INFO - DAG(s) 'elt' retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:14:00.962+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:14:00.959+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T03:14:01.350+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:14:01.343+0000] {dag.py:4180} INFO - Setting next_dagrun for elt to 2024-10-20 12:00:00+00:00, run_after=2024-10-21 12:00:00+00:00
+[2024-10-21T03:14:01.477+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 8.948 seconds
+[2024-10-21T03:14:33.076+0000] {processor.py:186} INFO - Started process (PID=379) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:14:33.085+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:14:33.112+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:14:33.105+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:14:36.401+0000] {logging_mixin.py:190} INFO - Searching in path: dags/sql_files/l2
+[2024-10-21T03:14:36.406+0000] {logging_mixin.py:190} INFO - SQL files found: ['fact_items_information.sql', 'dim_item.sql']
+[2024-10-21T03:14:36.742+0000] {processor.py:925} INFO - DAG(s) 'elt' retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:14:37.417+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:14:37.414+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T03:14:37.537+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:14:37.537+0000] {dag.py:4180} INFO - Setting next_dagrun for elt to 2024-10-20 12:00:00+00:00, run_after=2024-10-21 12:00:00+00:00
+[2024-10-21T03:14:37.729+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 4.811 seconds
+[2024-10-21T03:15:08.691+0000] {processor.py:186} INFO - Started process (PID=387) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:15:08.754+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:15:08.809+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:15:08.782+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:15:13.083+0000] {logging_mixin.py:190} INFO - Searching in path: dags/sql_files/l2
+[2024-10-21T03:15:13.086+0000] {logging_mixin.py:190} INFO - SQL files found: ['fact_items_information.sql', 'dim_item.sql']
+[2024-10-21T03:15:13.151+0000] {processor.py:925} INFO - DAG(s) 'elt' retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:15:13.255+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:15:13.254+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T03:15:13.377+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:15:13.377+0000] {dag.py:4180} INFO - Setting next_dagrun for elt to 2024-10-20 12:00:00+00:00, run_after=2024-10-21 12:00:00+00:00
+[2024-10-21T03:15:13.485+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 5.060 seconds
+[2024-10-21T03:15:44.078+0000] {processor.py:186} INFO - Started process (PID=399) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:15:44.081+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:15:44.086+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:15:44.084+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:15:45.711+0000] {logging_mixin.py:190} INFO - Searching in path: dags/sql_files/l2
+[2024-10-21T03:15:45.715+0000] {logging_mixin.py:190} INFO - SQL files found: ['fact_items_information.sql', 'dim_item.sql']
+[2024-10-21T03:15:45.773+0000] {processor.py:925} INFO - DAG(s) 'elt' retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:15:46.021+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:15:46.018+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T03:15:46.148+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:15:46.147+0000] {dag.py:4180} INFO - Setting next_dagrun for elt to 2024-10-20 12:00:00+00:00, run_after=2024-10-21 12:00:00+00:00
+[2024-10-21T03:15:46.199+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 2.168 seconds
+[2024-10-21T03:16:16.698+0000] {processor.py:186} INFO - Started process (PID=407) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:16:16.701+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:16:16.706+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:16:16.704+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:16:17.219+0000] {logging_mixin.py:190} INFO - Searching in path: dags/sql_files/l2
+[2024-10-21T03:16:17.219+0000] {logging_mixin.py:190} INFO - SQL files found: ['fact_items_information.sql', 'dim_item.sql']
+[2024-10-21T03:16:17.232+0000] {processor.py:925} INFO - DAG(s) 'elt' retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:16:17.279+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:16:17.279+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T03:16:17.300+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:16:17.299+0000] {dag.py:4180} INFO - Setting next_dagrun for elt to 2024-10-20 12:00:00+00:00, run_after=2024-10-21 12:00:00+00:00
+[2024-10-21T03:16:17.315+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 0.638 seconds
+[2024-10-21T03:16:48.259+0000] {processor.py:186} INFO - Started process (PID=420) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:16:48.263+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:16:48.270+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:16:48.268+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:16:48.969+0000] {logging_mixin.py:190} INFO - Searching in path: dags/sql_files/l2
+[2024-10-21T03:16:48.970+0000] {logging_mixin.py:190} INFO - SQL files found: ['fact_items_information.sql', 'dim_item.sql']
+[2024-10-21T03:16:48.985+0000] {processor.py:925} INFO - DAG(s) 'elt' retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:16:49.023+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:16:49.023+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T03:16:49.061+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:16:49.060+0000] {dag.py:4180} INFO - Setting next_dagrun for elt to 2024-10-20 12:00:00+00:00, run_after=2024-10-21 12:00:00+00:00
+[2024-10-21T03:16:49.076+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 0.839 seconds
+[2024-10-21T03:17:19.990+0000] {processor.py:186} INFO - Started process (PID=428) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:17:19.996+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:17:20.006+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:17:20.002+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:17:21.406+0000] {logging_mixin.py:190} INFO - Searching in path: dags/sql_files/l2
+[2024-10-21T03:17:21.407+0000] {logging_mixin.py:190} INFO - SQL files found: ['fact_items_information.sql', 'dim_item.sql']
+[2024-10-21T03:17:21.419+0000] {processor.py:925} INFO - DAG(s) 'elt' retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:17:21.569+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:17:21.568+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T03:17:21.685+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:17:21.684+0000] {dag.py:4180} INFO - Setting next_dagrun for elt to 2024-10-20 12:00:00+00:00, run_after=2024-10-21 12:00:00+00:00
+[2024-10-21T03:17:21.728+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 1.766 seconds
+[2024-10-21T03:17:52.382+0000] {processor.py:186} INFO - Started process (PID=436) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:17:52.385+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:17:52.392+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:17:52.390+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:17:53.012+0000] {logging_mixin.py:190} INFO - Searching in path: dags/sql_files/l2
+[2024-10-21T03:17:53.013+0000] {logging_mixin.py:190} INFO - SQL files found: ['fact_items_information.sql', 'dim_item.sql']
+[2024-10-21T03:17:53.021+0000] {processor.py:925} INFO - DAG(s) 'elt' retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:17:53.080+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:17:53.079+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T03:17:53.121+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:17:53.121+0000] {dag.py:4180} INFO - Setting next_dagrun for elt to 2024-10-20 12:00:00+00:00, run_after=2024-10-21 12:00:00+00:00
+[2024-10-21T03:17:53.139+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 0.789 seconds
+[2024-10-21T03:18:26.856+0000] {processor.py:186} INFO - Started process (PID=444) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:18:27.263+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:18:27.775+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:18:27.612+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:18:39.014+0000] {logging_mixin.py:190} INFO - Searching in path: dags/sql_files/l2
+[2024-10-21T03:18:39.056+0000] {logging_mixin.py:190} INFO - SQL files found: ['fact_items_information.sql', 'dim_item.sql']
+[2024-10-21T03:18:39.307+0000] {processor.py:925} INFO - DAG(s) 'elt' retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:18:41.596+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:18:41.565+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T03:18:43.010+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:18:42.928+0000] {dag.py:4180} INFO - Setting next_dagrun for elt to 2024-10-20 12:00:00+00:00, run_after=2024-10-21 12:00:00+00:00
+[2024-10-21T03:18:43.348+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 18.411 seconds
+[2024-10-21T03:19:15.344+0000] {processor.py:186} INFO - Started process (PID=458) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:19:15.369+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:19:15.411+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:19:15.396+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:19:46.355+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:19:46.125+0000] {timeout.py:68} ERROR - Process timed out, PID: 458
+[2024-10-21T03:19:46.658+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:19:46.389+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/elt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/elt.py", line 28, in <module>
+    with DAG(
+         ^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dag.py", line 611, in __init__
+    back = sys._getframe().f_back
+           ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/elt.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.10.2/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.10.2/best-practices.html#reducing-dag-complexity, PID: 458
+[2024-10-21T03:19:46.729+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:19:48.596+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 32.808 seconds
+[2024-10-21T03:20:21.012+0000] {processor.py:186} INFO - Started process (PID=472) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:20:21.094+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:20:21.217+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:20:21.171+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:20:27.969+0000] {logging_mixin.py:190} INFO - Searching in path: dags/sql_files/l2
+[2024-10-21T03:20:27.971+0000] {logging_mixin.py:190} INFO - SQL files found: ['fact_items_information.sql', 'dim_item.sql']
+[2024-10-21T03:20:28.030+0000] {processor.py:925} INFO - DAG(s) 'elt' retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:20:28.245+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:20:28.244+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T03:20:28.369+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:20:28.367+0000] {dag.py:4180} INFO - Setting next_dagrun for elt to 2024-10-20 12:00:00+00:00, run_after=2024-10-21 12:00:00+00:00
+[2024-10-21T03:20:28.438+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 7.837 seconds
+[2024-10-21T03:20:44.478+0000] {processor.py:186} INFO - Started process (PID=474) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:20:44.505+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:20:44.558+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:20:44.530+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:20:50.280+0000] {logging_mixin.py:190} INFO - Searching in path: dags/sql_files/l2
+[2024-10-21T03:20:50.289+0000] {logging_mixin.py:190} INFO - SQL files found: ['fact_items_information.sql', 'dim_item.sql']
+[2024-10-21T03:20:50.412+0000] {processor.py:925} INFO - DAG(s) 'elt' retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:20:50.865+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:20:50.864+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T03:20:50.940+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:20:50.940+0000] {dag.py:4180} INFO - Setting next_dagrun for elt to 2024-10-20 12:00:00+00:00, run_after=2024-10-21 12:00:00+00:00
+[2024-10-21T03:20:50.972+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 6.987 seconds
+[2024-10-21T03:21:29.515+0000] {processor.py:186} INFO - Started process (PID=486) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:21:30.220+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:21:31.606+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:21:30.691+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:22:04.974+0000] {logging_mixin.py:190} INFO - Searching in path: dags/sql_files/l2
+[2024-10-21T03:22:04.996+0000] {logging_mixin.py:190} INFO - SQL files found: ['fact_items_information.sql', 'dim_item.sql']
+[2024-10-21T03:22:05.226+0000] {processor.py:925} INFO - DAG(s) 'elt' retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:22:06.441+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:22:06.434+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T03:22:06.809+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:22:06.800+0000] {dag.py:4180} INFO - Setting next_dagrun for elt to 2024-10-20 12:00:00+00:00, run_after=2024-10-21 12:00:00+00:00
+[2024-10-21T03:22:07.075+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 40.818 seconds
+[2024-10-21T03:23:03.062+0000] {processor.py:186} INFO - Started process (PID=500) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:23:03.305+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:23:03.775+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:23:03.619+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:23:37.815+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:23:36.053+0000] {timeout.py:68} ERROR - Process timed out, PID: 500
+[2024-10-21T03:23:39.548+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:23:37.979+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/elt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/elt.py", line 9, in <module>
+    from python_files.l1.items.items import insert_items
+  File "/opt/airflow/dags/python_files/l1/items/items.py", line 2, in <module>
+    import pandas as pd
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/__init__.py", line 46, in <module>
+    from pandas.core.api import (
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/core/api.py", line 28, in <module>
+    from pandas.core.arrays import Categorical
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/core/arrays/__init__.py", line 1, in <module>
+    from pandas.core.arrays.arrow import ArrowExtensionArray
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/core/arrays/arrow/__init__.py", line 1, in <module>
+    from pandas.core.arrays.arrow.array import ArrowExtensionArray
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/core/arrays/arrow/array.py", line 51, in <module>
+    from pandas.core.arraylike import OpsMixin
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/core/arraylike.py", line 21, in <module>
+    from pandas.core.ops.common import unpack_zerodim_and_defer
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/core/ops/__init__.py", line 8, in <module>
+    from pandas.core.ops.array_ops import (
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/core/ops/array_ops.py", line 58, in <module>
+    from pandas.core.computation import expressions
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1096, in get_code
+  File "<frozen importlib._bootstrap_external>", line 666, in _classify_pyc
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/elt.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.10.2/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.10.2/best-practices.html#reducing-dag-complexity, PID: 500
+[2024-10-21T03:24:10.151+0000] {processor.py:186} INFO - Started process (PID=515) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:24:10.182+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:24:10.228+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:24:10.208+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:24:40.624+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:24:40.463+0000] {timeout.py:68} ERROR - Process timed out, PID: 515
+[2024-10-21T03:24:41.946+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:24:40.739+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/elt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/elt.py", line 9, in <module>
+    from python_files.l1.items.items import insert_items
+  File "/opt/airflow/dags/python_files/l1/items/items.py", line 2, in <module>
+    import pandas as pd
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/__init__.py", line 46, in <module>
+    from pandas.core.api import (
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/core/api.py", line 47, in <module>
+    from pandas.core.groupby import (
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/core/groupby/__init__.py", line 1, in <module>
+    from pandas.core.groupby.generic import (
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/core/groupby/generic.py", line 67, in <module>
+    from pandas.core.frame import DataFrame
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/core/frame.py", line 142, in <module>
+    from pandas.core.generic import (
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/core/generic.py", line 178, in <module>
+    from pandas.core.methods.describe import describe_ndframe
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/core/methods/describe.py", line 41, in <module>
+    from pandas.io.formats.format import format_percentiles
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/formats/format.py", line 91, in <module>
+    from pandas.io.common import (
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/common.py", line 30, in <module>
+    import tarfile
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/elt.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.10.2/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.10.2/best-practices.html#reducing-dag-complexity, PID: 515
+[2024-10-21T03:24:42.191+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:24:43.211+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 33.294 seconds
+[2024-10-21T03:25:14.980+0000] {processor.py:186} INFO - Started process (PID=528) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:25:15.000+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:25:15.056+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:25:15.036+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:25:45.472+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:25:45.298+0000] {timeout.py:68} ERROR - Process timed out, PID: 528
+[2024-10-21T03:25:45.726+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:25:45.541+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/elt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/elt.py", line 9, in <module>
+    from python_files.l1.items.items import insert_items
+  File "/opt/airflow/dags/python_files/l1/items/items.py", line 2, in <module>
+    import pandas as pd
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/__init__.py", line 46, in <module>
+    from pandas.core.api import (
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/core/api.py", line 47, in <module>
+    from pandas.core.groupby import (
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/core/groupby/__init__.py", line 1, in <module>
+    from pandas.core.groupby.generic import (
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/core/groupby/generic.py", line 67, in <module>
+    from pandas.core.frame import DataFrame
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1124, in get_code
+  File "<frozen importlib._bootstrap_external>", line 753, in _compile_bytecode
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/elt.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.10.2/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.10.2/best-practices.html#reducing-dag-complexity, PID: 528
+[2024-10-21T03:25:45.831+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:25:46.892+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 32.101 seconds
+[2024-10-21T03:27:16.631+0000] {processor.py:186} INFO - Started process (PID=53) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:27:16.634+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:27:16.640+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:27:16.639+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:27:19.674+0000] {logging_mixin.py:190} INFO - Searching in path: dags/sql_files/l2
+[2024-10-21T03:27:19.686+0000] {logging_mixin.py:190} INFO - SQL files found: ['fact_items_information.sql', 'dim_item.sql']
+[2024-10-21T03:27:19.727+0000] {processor.py:925} INFO - DAG(s) 'elt' retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:27:20.325+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:27:20.323+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T03:27:20.530+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:27:20.526+0000] {dag.py:4180} INFO - Setting next_dagrun for elt to 2024-10-20 12:00:00+00:00, run_after=2024-10-21 12:00:00+00:00
+[2024-10-21T03:27:20.711+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 4.098 seconds
+[2024-10-21T03:27:51.252+0000] {processor.py:186} INFO - Started process (PID=67) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:27:51.254+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:27:51.267+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:27:51.266+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:27:52.052+0000] {logging_mixin.py:190} INFO - Searching in path: dags/sql_files/l2
+[2024-10-21T03:27:52.052+0000] {logging_mixin.py:190} INFO - SQL files found: ['fact_items_information.sql', 'dim_item.sql']
+[2024-10-21T03:27:52.059+0000] {processor.py:925} INFO - DAG(s) 'elt' retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:27:52.081+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:27:52.081+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T03:27:52.103+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:27:52.103+0000] {dag.py:4180} INFO - Setting next_dagrun for elt to 2024-10-20 12:00:00+00:00, run_after=2024-10-21 12:00:00+00:00
+[2024-10-21T03:27:52.115+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 0.877 seconds
+[2024-10-21T03:28:22.664+0000] {processor.py:186} INFO - Started process (PID=75) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:28:22.665+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:28:22.678+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:28:22.675+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:28:23.198+0000] {logging_mixin.py:190} INFO - Searching in path: dags/sql_files/l2
+[2024-10-21T03:28:23.198+0000] {logging_mixin.py:190} INFO - SQL files found: ['fact_items_information.sql', 'dim_item.sql']
+[2024-10-21T03:28:23.203+0000] {processor.py:925} INFO - DAG(s) 'elt' retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:28:23.221+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:28:23.221+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T03:28:23.234+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:28:23.234+0000] {dag.py:4180} INFO - Setting next_dagrun for elt to 2024-10-20 12:00:00+00:00, run_after=2024-10-21 12:00:00+00:00
+[2024-10-21T03:28:23.243+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 0.586 seconds
+[2024-10-21T03:29:09.770+0000] {processor.py:186} INFO - Started process (PID=63) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:29:09.773+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:29:09.794+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:29:09.791+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:29:14.113+0000] {logging_mixin.py:190} INFO - Searching in path: dags/sql_files/l2
+[2024-10-21T03:29:14.114+0000] {logging_mixin.py:190} INFO - SQL files found: ['fact_items_information.sql', 'dim_item.sql']
+[2024-10-21T03:29:14.130+0000] {processor.py:925} INFO - DAG(s) 'elt' retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:29:14.283+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:29:14.280+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T03:29:14.360+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:29:14.359+0000] {dag.py:4180} INFO - Setting next_dagrun for elt to 2024-10-20 12:00:00+00:00, run_after=2024-10-21 12:00:00+00:00
+[2024-10-21T03:29:14.395+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 4.651 seconds
+[2024-10-21T03:29:46.471+0000] {processor.py:186} INFO - Started process (PID=71) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:29:46.517+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:29:46.840+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:29:46.819+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:29:54.637+0000] {logging_mixin.py:190} INFO - Searching in path: dags/sql_files/l2
+[2024-10-21T03:29:54.639+0000] {logging_mixin.py:190} INFO - SQL files found: ['fact_items_information.sql', 'dim_item.sql']
+[2024-10-21T03:29:54.656+0000] {processor.py:925} INFO - DAG(s) 'elt' retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:29:54.706+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:29:54.706+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T03:29:54.730+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:29:54.730+0000] {dag.py:4180} INFO - Setting next_dagrun for elt to 2024-10-20 12:00:00+00:00, run_after=2024-10-21 12:00:00+00:00
+[2024-10-21T03:29:54.766+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 8.576 seconds
+[2024-10-21T03:30:25.795+0000] {processor.py:186} INFO - Started process (PID=83) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:30:25.798+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:30:25.808+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:30:25.806+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:30:28.532+0000] {logging_mixin.py:190} INFO - Searching in path: dags/sql_files/l2
+[2024-10-21T03:30:28.534+0000] {logging_mixin.py:190} INFO - SQL files found: ['fact_items_information.sql', 'dim_item.sql']
+[2024-10-21T03:30:28.571+0000] {processor.py:925} INFO - DAG(s) 'elt' retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:30:28.609+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:30:28.608+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T03:30:28.641+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:30:28.641+0000] {dag.py:4180} INFO - Setting next_dagrun for elt to 2024-10-20 12:00:00+00:00, run_after=2024-10-21 12:00:00+00:00
+[2024-10-21T03:30:28.657+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 2.893 seconds
+[2024-10-21T03:30:59.524+0000] {processor.py:186} INFO - Started process (PID=95) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:30:59.529+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:30:59.546+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:30:59.544+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:31:00.917+0000] {logging_mixin.py:190} INFO - Searching in path: dags/sql_files/l2
+[2024-10-21T03:31:00.917+0000] {logging_mixin.py:190} INFO - SQL files found: ['fact_items_information.sql', 'dim_item.sql']
+[2024-10-21T03:31:00.925+0000] {processor.py:925} INFO - DAG(s) 'elt' retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:31:00.945+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:31:00.944+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T03:31:00.959+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:31:00.958+0000] {dag.py:4180} INFO - Setting next_dagrun for elt to 2024-10-20 12:00:00+00:00, run_after=2024-10-21 12:00:00+00:00
+[2024-10-21T03:31:00.968+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 1.498 seconds
+[2024-10-21T03:31:32.109+0000] {processor.py:186} INFO - Started process (PID=103) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:31:32.123+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:31:32.158+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:31:32.156+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:31:33.927+0000] {logging_mixin.py:190} INFO - Searching in path: dags/sql_files/l2
+[2024-10-21T03:31:33.928+0000] {logging_mixin.py:190} INFO - SQL files found: ['fact_items_information.sql', 'dim_item.sql']
+[2024-10-21T03:31:33.940+0000] {processor.py:925} INFO - DAG(s) 'elt' retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:31:34.026+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:31:34.026+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T03:31:34.057+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:31:34.056+0000] {dag.py:4180} INFO - Setting next_dagrun for elt to 2024-10-20 12:00:00+00:00, run_after=2024-10-21 12:00:00+00:00
+[2024-10-21T03:31:34.079+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 2.065 seconds
+[2024-10-21T03:32:04.543+0000] {processor.py:186} INFO - Started process (PID=115) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:32:04.546+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:32:04.558+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:32:04.555+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:32:05.790+0000] {logging_mixin.py:190} INFO - Searching in path: dags/sql_files/l2
+[2024-10-21T03:32:05.794+0000] {logging_mixin.py:190} INFO - SQL files found: ['fact_items_information.sql', 'dim_item.sql']
+[2024-10-21T03:32:05.825+0000] {processor.py:925} INFO - DAG(s) 'elt' retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:32:05.866+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:32:05.865+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T03:32:05.885+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:32:05.885+0000] {dag.py:4180} INFO - Setting next_dagrun for elt to 2024-10-20 12:00:00+00:00, run_after=2024-10-21 12:00:00+00:00
+[2024-10-21T03:32:05.904+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 1.394 seconds
+[2024-10-21T03:32:36.331+0000] {processor.py:186} INFO - Started process (PID=127) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:32:36.335+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:32:36.388+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:32:36.378+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:32:38.945+0000] {logging_mixin.py:190} INFO - Searching in path: dags/sql_files/l2
+[2024-10-21T03:32:38.945+0000] {logging_mixin.py:190} INFO - SQL files found: ['fact_items_information.sql', 'dim_item.sql']
+[2024-10-21T03:32:38.950+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:32:38.949+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: dags/sql_files/l2/fact_items_information.sql
+[2024-10-21T03:32:38.951+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:32:38.951+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: dags/sql_files/l2/dim_item.sql
+[2024-10-21T03:32:38.955+0000] {processor.py:925} INFO - DAG(s) 'elt' retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:32:39.083+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:32:39.082+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T03:32:39.100+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:32:39.100+0000] {dag.py:4180} INFO - Setting next_dagrun for elt to 2024-10-20 12:00:00+00:00, run_after=2024-10-21 12:00:00+00:00
+[2024-10-21T03:32:39.115+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 2.826 seconds
+[2024-10-21T03:33:09.457+0000] {processor.py:186} INFO - Started process (PID=139) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:33:09.460+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:33:09.478+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:33:09.472+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:33:10.456+0000] {logging_mixin.py:190} INFO - Searching in path: dags/sql_files/l2
+[2024-10-21T03:33:10.459+0000] {logging_mixin.py:190} INFO - SQL files found: ['fact_items_information.sql', 'dim_item.sql']
+[2024-10-21T03:33:10.496+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:33:10.475+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: dags/sql_files/l2/fact_items_information.sql
+[2024-10-21T03:33:10.498+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:33:10.497+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: dags/sql_files/l2/dim_item.sql
+[2024-10-21T03:33:10.506+0000] {processor.py:925} INFO - DAG(s) 'elt' retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:33:10.650+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:33:10.648+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T03:33:10.724+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:33:10.723+0000] {dag.py:4180} INFO - Setting next_dagrun for elt to 2024-10-20 12:00:00+00:00, run_after=2024-10-21 12:00:00+00:00
+[2024-10-21T03:33:10.753+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 1.314 seconds
+[2024-10-21T03:33:41.660+0000] {processor.py:186} INFO - Started process (PID=153) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:33:41.664+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:33:41.677+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:33:41.675+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:33:42.531+0000] {logging_mixin.py:190} INFO - Searching in path: dags/sql_files/l2
+[2024-10-21T03:33:42.532+0000] {logging_mixin.py:190} INFO - SQL files found: ['fact_items_information.sql', 'dim_item.sql']
+[2024-10-21T03:33:42.540+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:33:42.538+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: dags/sql_files/l2/fact_items_information.sql
+[2024-10-21T03:33:42.541+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:33:42.541+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: dags/sql_files/l2/dim_item.sql
+[2024-10-21T03:33:42.546+0000] {processor.py:925} INFO - DAG(s) 'elt' retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:33:42.592+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:33:42.591+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T03:33:42.625+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:33:42.624+0000] {dag.py:4180} INFO - Setting next_dagrun for elt to 2024-10-20 12:00:00+00:00, run_after=2024-10-21 12:00:00+00:00
+[2024-10-21T03:33:42.669+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 1.043 seconds
+[2024-10-21T03:34:13.523+0000] {processor.py:186} INFO - Started process (PID=165) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:34:13.534+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:34:13.599+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:34:13.584+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:34:14.904+0000] {logging_mixin.py:190} INFO - Searching in path: dags/sql_files/l2
+[2024-10-21T03:34:14.905+0000] {logging_mixin.py:190} INFO - SQL files found: ['fact_items_information.sql', 'dim_item.sql']
+[2024-10-21T03:34:14.916+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:34:14.913+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: dags/sql_files/l2/fact_items_information.sql
+[2024-10-21T03:34:14.917+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:34:14.917+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: dags/sql_files/l2/dim_item.sql
+[2024-10-21T03:34:14.921+0000] {processor.py:925} INFO - DAG(s) 'elt' retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:34:14.973+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:34:14.972+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T03:34:15.039+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:34:15.038+0000] {dag.py:4180} INFO - Setting next_dagrun for elt to 2024-10-20 12:00:00+00:00, run_after=2024-10-21 12:00:00+00:00
+[2024-10-21T03:34:15.062+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 1.607 seconds
+[2024-10-21T03:34:46.019+0000] {processor.py:186} INFO - Started process (PID=177) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:34:46.021+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:34:46.047+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:34:46.044+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:34:47.054+0000] {logging_mixin.py:190} INFO - Searching in path: dags/sql_files/l2
+[2024-10-21T03:34:47.059+0000] {logging_mixin.py:190} INFO - SQL files found: ['fact_items_information.sql', 'dim_item.sql']
+[2024-10-21T03:34:47.083+0000] {processor.py:925} INFO - DAG(s) 'elt' retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:34:47.380+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:34:47.379+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T03:34:47.413+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:34:47.413+0000] {dag.py:4180} INFO - Setting next_dagrun for elt to 2024-10-20 12:00:00+00:00, run_after=2024-10-21 12:00:00+00:00
+[2024-10-21T03:34:47.438+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 1.446 seconds
+[2024-10-21T03:35:18.304+0000] {processor.py:186} INFO - Started process (PID=189) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:35:18.305+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:35:18.317+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:35:18.314+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:35:18.866+0000] {logging_mixin.py:190} INFO - Searching in path: dags/sql_files/l2
+[2024-10-21T03:35:18.867+0000] {logging_mixin.py:190} INFO - SQL files found: ['fact_items_information.sql', 'dim_item.sql']
+[2024-10-21T03:35:18.875+0000] {processor.py:925} INFO - DAG(s) 'elt' retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:35:18.921+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:35:18.920+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T03:35:18.958+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:35:18.957+0000] {dag.py:4180} INFO - Setting next_dagrun for elt to 2024-10-20 12:00:00+00:00, run_after=2024-10-21 12:00:00+00:00
+[2024-10-21T03:35:18.971+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 0.682 seconds
+[2024-10-21T03:35:50.878+0000] {processor.py:186} INFO - Started process (PID=197) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:35:50.881+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:35:50.948+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:35:50.923+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:35:54.868+0000] {logging_mixin.py:190} INFO - Searching in path: dags/sql_files/l2
+[2024-10-21T03:35:54.871+0000] {logging_mixin.py:190} INFO - SQL files found: ['fact_items_information.sql', 'dim_item.sql']
+[2024-10-21T03:35:54.961+0000] {processor.py:925} INFO - DAG(s) 'elt' retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:35:55.314+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:35:55.313+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T03:35:55.749+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:35:55.746+0000] {dag.py:4180} INFO - Setting next_dagrun for elt to 2024-10-20 12:00:00+00:00, run_after=2024-10-21 12:00:00+00:00
+[2024-10-21T03:35:55.870+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 5.148 seconds
+[2024-10-21T03:36:29.289+0000] {processor.py:186} INFO - Started process (PID=204) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:36:29.591+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:36:30.151+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:36:30.110+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:36:44.116+0000] {logging_mixin.py:190} INFO - Searching in path: dags/sql_files/l2
+[2024-10-21T03:36:44.134+0000] {logging_mixin.py:190} INFO - SQL files found: ['fact_items_information.sql', 'dim_item.sql']
+[2024-10-21T03:36:44.258+0000] {processor.py:925} INFO - DAG(s) 'elt' retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:36:44.913+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:36:44.906+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T03:36:46.942+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:36:46.935+0000] {dag.py:4180} INFO - Setting next_dagrun for elt to 2024-10-20 12:00:00+00:00, run_after=2024-10-21 12:00:00+00:00
+[2024-10-21T03:36:47.137+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 18.068 seconds
+[2024-10-21T03:37:17.417+0000] {processor.py:186} INFO - Started process (PID=212) to work on /opt/airflow/dags/elt.py
+[2024-10-21T03:37:17.419+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elt.py for tasks to queue
+[2024-10-21T03:37:17.433+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:37:17.431+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elt.py
+[2024-10-21T03:37:18.527+0000] {logging_mixin.py:190} INFO - Searching in path: dags/sql_files/l2
+[2024-10-21T03:37:18.528+0000] {logging_mixin.py:190} INFO - SQL files found: ['fact_items_information.sql', 'dim_item.sql']
+[2024-10-21T03:37:18.540+0000] {processor.py:925} INFO - DAG(s) 'elt' retrieved from /opt/airflow/dags/elt.py
+[2024-10-21T03:37:18.603+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:37:18.603+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T03:37:18.630+0000] {logging_mixin.py:190} INFO - [2024-10-21T03:37:18.630+0000] {dag.py:4180} INFO - Setting next_dagrun for elt to 2024-10-20 12:00:00+00:00, run_after=2024-10-21 12:00:00+00:00
+[2024-10-21T03:37:18.657+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elt.py took 1.264 seconds

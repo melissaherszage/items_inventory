@@ -34,7 +34,7 @@ Es requisito tener Docker y Docker Compose instalados.
 - Ir a Admin -> Connections.
 - Crea una nueva conexión con los siguientes detalles:
     - Connection Id: redshift_default
-    - Connection Type: Amazon Redshift
+    - Connection Type: Postgres (ojo! no es redshift)
     - Host: redshift-pda-cluster.cnuimntownzt.us-east-2.redshift.amazonaws.com
     - Database: pda
     - Port: 5439
