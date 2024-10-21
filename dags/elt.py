@@ -10,6 +10,7 @@ from python_files.l1.items.items import insert_items
 from python_files.l1.prices.prices import insert_prices
 from python_files.lib.sql_folder import get_dag_sql_files
 
+
 # Defino el DAG 
 
 DAG_ID = os.path.basename(__file__).replace(".py", "")
@@ -67,6 +68,7 @@ with DAG(
             
             PostgresOperator(
             task_id=f"run_{task_id_sql}",
+            #postgres_conn_id='redshift_default',
             sql=sql_path,
         )
 

@@ -22,5 +22,3 @@ def get_dag_sql_files(dag_folder: str = None ,
     full_paths = [os.path.join(path, f) for f in sql_files]
     
     return full_paths
-
-get_dag_sql_files('l2')
