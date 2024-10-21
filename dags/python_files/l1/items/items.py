@@ -3,6 +3,8 @@ import pandas as pd
 from python_files.lib.infra import database_connection
 import os
 from dotenv import load_dotenv
+import os
+from airflow.hooks.base import BaseHook
 
 load_dotenv()
 
@@ -20,7 +22,7 @@ def insert_items():
         data = response.json()
         print(data)
 
-        conn = database_connection('redshift_default') 
+        conn = database_connection() 
 
         cursor = conn.cursor()
 

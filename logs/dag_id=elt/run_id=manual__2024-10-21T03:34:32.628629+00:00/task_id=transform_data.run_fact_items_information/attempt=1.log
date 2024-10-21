@@ -1,0 +1,80 @@
+[2024-10-21T03:35:16.084+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-21T03:35:16.102+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: elt.transform_data.run_fact_items_information manual__2024-10-21T03:34:32.628629+00:00 [queued]>
+[2024-10-21T03:35:16.119+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: elt.transform_data.run_fact_items_information manual__2024-10-21T03:34:32.628629+00:00 [queued]>
+[2024-10-21T03:35:16.121+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2024-10-21T03:35:16.157+0000] {taskinstance.py:2888} INFO - Executing <Task(PostgresOperator): transform_data.run_fact_items_information> on 2024-10-21 03:34:32.628629+00:00
+[2024-10-21T03:35:16.174+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=211) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-10-21T03:35:16.178+0000] {standard_task_runner.py:72} INFO - Started process 215 to run task
+[2024-10-21T03:35:16.178+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'elt', 'transform_data.run_fact_items_information', 'manual__2024-10-21T03:34:32.628629+00:00', '--job-id', '162', '--raw', '--subdir', 'DAGS_FOLDER/elt.py', '--cfg-path', '/tmp/tmpcamx5nma']
+[2024-10-21T03:35:16.181+0000] {standard_task_runner.py:105} INFO - Job 162: Subtask transform_data.run_fact_items_information
+[2024-10-21T03:35:16.895+0000] {task_command.py:467} INFO - Running <TaskInstance: elt.transform_data.run_fact_items_information manual__2024-10-21T03:34:32.628629+00:00 [running]> on host 6c3793bbe9c9
+[2024-10-21T03:35:16.981+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='mherszage' AIRFLOW_CTX_DAG_ID='elt' AIRFLOW_CTX_TASK_ID='transform_data.run_fact_items_information' AIRFLOW_CTX_EXECUTION_DATE='2024-10-21T03:34:32.628629+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-21T03:34:32.628629+00:00'
+[2024-10-21T03:35:16.983+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-21T03:35:17.014+0000] {sql.py:266} INFO - Executing: BEGIN TRANSACTION
+;
+
+CREATE TEMPORARY TABLE staging_fact_items_information AS
+(
+WITH filter_variables AS
+(SELECT COALESCE(MAX(_fact_items_information_audit_time), '2024-10-16'::timestamp) AS last_updated FROM "2024_melissa_herszage_schema".l2_fact_items_information)
+
+    SELECT item_id,
+           CASE WHEN condition = 'new' THEN 1 ELSE 2 END as condition_id,
+           CASE WHEN currency = 'ARS' THEN 1 ELSE 2 END as currency_id,
+           price,
+           available_quantity,
+           created_at as _l1_audit_time,
+           current_timestamp as _fact_items_information_audit_time
+        FROM "2024_melissa_herszage_schema".l1_item_prices
+    )
+;
+
+DELETE FROM "2024_melissa_herszage_schema".l2_fact_items_information
+WHERE item_id IN (SELECT item_id FROM staging_fact_items_information)
+;
+
+INSERT INTO "2024_melissa_herszage_schema".l2_fact_items_information
+(SELECT * FROM staging_fact_items_information)
+;
+
+END TRANSACTION
+;
+[2024-10-21T03:35:17.034+0000] {base.py:84} INFO - Retrieving connection 'redshift_default'
+[2024-10-21T03:35:17.044+0000] {base.py:84} INFO - Retrieving connection 'redshift_default'
+[2024-10-21T03:35:18.299+0000] {sql.py:509} INFO - Running statement: BEGIN TRANSACTION
+;
+
+CREATE TEMPORARY TABLE staging_fact_items_information AS
+(
+WITH filter_variables AS
+(SELECT COALESCE(MAX(_fact_items_information_audit_time), '2024-10-16'::timestamp) AS last_updated FROM "2024_melissa_herszage_schema".l2_fact_items_information)
+
+    SELECT item_id,
+           CASE WHEN condition = 'new' THEN 1 ELSE 2 END as condition_id,
+           CASE WHEN currency = 'ARS' THEN 1 ELSE 2 END as currency_id,
+           price,
+           available_quantity,
+           created_at as _l1_audit_time,
+           current_timestamp as _fact_items_information_audit_time
+        FROM "2024_melissa_herszage_schema".l1_item_prices
+    )
+;
+
+DELETE FROM "2024_melissa_herszage_schema".l2_fact_items_information
+WHERE item_id IN (SELECT item_id FROM staging_fact_items_information)
+;
+
+INSERT INTO "2024_melissa_herszage_schema".l2_fact_items_information
+(SELECT * FROM staging_fact_items_information)
+;
+
+END TRANSACTION
+;, parameters: None
+[2024-10-21T03:35:19.141+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-21T03:35:19.143+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=elt, task_id=transform_data.run_fact_items_information, run_id=manual__2024-10-21T03:34:32.628629+00:00, execution_date=20241021T033432, start_date=20241021T033516, end_date=20241021T033519
+[2024-10-21T03:35:19.217+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-10-21T03:35:22.065+0000] {standard_task_runner.py:217} INFO - Process not found (most likely exited), stop collecting metrics
+[2024-10-21T03:35:22.097+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-10-21T03:35:22.100+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

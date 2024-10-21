@@ -1,0 +1,364 @@
+[2024-10-21T02:39:04.656+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-21T02:39:04.668+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: elt.extract_load_data.insert_prices manual__2024-10-21T02:38:33.251839+00:00 [queued]>
+[2024-10-21T02:39:04.676+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: elt.extract_load_data.insert_prices manual__2024-10-21T02:38:33.251839+00:00 [queued]>
+[2024-10-21T02:39:04.677+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2024-10-21T02:39:04.689+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): extract_load_data.insert_prices> on 2024-10-21 02:38:33.251839+00:00
+[2024-10-21T02:39:04.695+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=134) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-10-21T02:39:04.697+0000] {standard_task_runner.py:72} INFO - Started process 136 to run task
+[2024-10-21T02:39:04.697+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'elt', 'extract_load_data.insert_prices', 'manual__2024-10-21T02:38:33.251839+00:00', '--job-id', '80', '--raw', '--subdir', 'DAGS_FOLDER/elt.py', '--cfg-path', '/tmp/tmpb0939wcf']
+[2024-10-21T02:39:04.699+0000] {standard_task_runner.py:105} INFO - Job 80: Subtask extract_load_data.insert_prices
+[2024-10-21T02:39:05.018+0000] {task_command.py:467} INFO - Running <TaskInstance: elt.extract_load_data.insert_prices manual__2024-10-21T02:38:33.251839+00:00 [running]> on host 4c00d78d539c
+[2024-10-21T02:39:05.056+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='mherszage' AIRFLOW_CTX_DAG_ID='elt' AIRFLOW_CTX_TASK_ID='extract_load_data.insert_prices' AIRFLOW_CTX_EXECUTION_DATE='2024-10-21T02:38:33.251839+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-21T02:38:33.251839+00:00'
+[2024-10-21T02:39:05.056+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-21T02:39:05.070+0000] {base.py:84} INFO - Retrieving connection 'redshift_default'
+[2024-10-21T02:39:07.609+0000] {logging_mixin.py:190} INFO - 2024-10-20
+[2024-10-21T02:39:08.433+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1513783534', 'new', 771999, 'ARS', 100, current_timestamp);
+                    
+[2024-10-21T02:39:08.645+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:08.647+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1390377885', 'new', 162999, 'ARS', 1, current_timestamp);
+                    
+[2024-10-21T02:39:08.861+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:08.865+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1771015420', 'new', 54608.51, 'ARS', 1, current_timestamp);
+                    
+[2024-10-21T02:39:09.071+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:09.071+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1412433221', 'new', 81990, 'ARS', 1, current_timestamp);
+                    
+[2024-10-21T02:39:09.275+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:09.275+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1444412543', 'new', 1482999.99, 'ARS', 1, current_timestamp);
+                    
+[2024-10-21T02:39:09.480+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:09.481+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1771013260', 'new', 34288.98, 'ARS', 1, current_timestamp);
+                    
+[2024-10-21T02:39:09.698+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:09.699+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1389166937', 'new', 7505, 'ARS', 50, current_timestamp);
+                    
+[2024-10-21T02:39:09.906+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:09.911+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1425892217', 'new', 1374999, 'ARS', 50, current_timestamp);
+                    
+[2024-10-21T02:39:10.118+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:10.121+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1915909492', 'new', 14390, 'ARS', 50, current_timestamp);
+                    
+[2024-10-21T02:39:10.325+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:10.326+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1363095617', 'new', 28199, 'ARS', 1, current_timestamp);
+                    
+[2024-10-21T02:39:10.532+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:10.533+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1425634379', 'new', 657999, 'ARS', 100, current_timestamp);
+                    
+[2024-10-21T02:39:10.739+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:10.740+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1464746128', 'new', 146999, 'ARS', 500, current_timestamp);
+                    
+[2024-10-21T02:39:10.945+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:10.946+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1455028687', 'new', 81179, 'ARS', 1, current_timestamp);
+                    
+[2024-10-21T02:39:11.153+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:11.154+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1723436604', 'new', 1374999, 'ARS', 250, current_timestamp);
+                    
+[2024-10-21T02:39:11.362+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:11.364+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1480985544', 'new', 9629.1, 'ARS', 1, current_timestamp);
+                    
+[2024-10-21T02:39:11.571+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:11.572+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1429227849', 'new', 1469999, 'ARS', 1, current_timestamp);
+                    
+[2024-10-21T02:39:11.777+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:11.778+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1682367026', 'new', 9299, 'ARS', 1, current_timestamp);
+                    
+[2024-10-21T02:39:11.991+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:11.992+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1915925398', 'new', 38999, 'ARS', 50, current_timestamp);
+                    
+[2024-10-21T02:39:12.222+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:12.225+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1420491095', 'new', 169999, 'ARS', 250, current_timestamp);
+                    
+[2024-10-21T02:39:12.430+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:12.432+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1433434665', 'new', 1668315, 'ARS', 1, current_timestamp);
+                    
+[2024-10-21T02:39:12.638+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:12.640+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1609200050', 'new', 3896.9, 'ARS', 50, current_timestamp);
+                    
+[2024-10-21T02:39:12.846+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:12.847+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1799702264', 'new', 735000, 'ARS', 1, current_timestamp);
+                    
+[2024-10-21T02:39:13.053+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:13.055+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1682380050', 'new', 9099, 'ARS', 1, current_timestamp);
+                    
+[2024-10-21T02:39:13.259+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:13.261+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1455968443', 'new', 729990, 'ARS', 1, current_timestamp);
+                    
+[2024-10-21T02:39:13.471+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:13.473+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1932107420', 'new', 5999, 'ARS', 50, current_timestamp);
+                    
+[2024-10-21T02:39:13.708+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:13.711+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1367473676', 'new', 120792, 'ARS', 1, current_timestamp);
+                    
+[2024-10-21T02:39:13.928+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:13.929+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA897209769', 'new', 10330, 'ARS', 1, current_timestamp);
+                    
+[2024-10-21T02:39:14.134+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:14.137+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1444880845', 'new', 145999, 'ARS', 200, current_timestamp);
+                    
+[2024-10-21T02:39:14.342+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:14.345+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1902022692', 'new', 67999, 'ARS', 1, current_timestamp);
+                    
+[2024-10-21T02:39:14.557+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:14.559+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA934055466', 'new', 42999, 'ARS', 1, current_timestamp);
+                    
+[2024-10-21T02:39:14.771+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:14.774+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1363379415', 'new', 598499.37, 'ARS', 100, current_timestamp);
+                    
+[2024-10-21T02:39:14.994+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:14.995+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1432568059', 'new', 6906.5, 'ARS', 1, current_timestamp);
+                    
+[2024-10-21T02:39:15.203+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:15.208+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1126675691', 'new', 20677.5, 'ARS', 1, current_timestamp);
+                    
+[2024-10-21T02:39:15.416+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:15.417+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1422439293', 'new', 1589457, 'ARS', 1, current_timestamp);
+                    
+[2024-10-21T02:39:15.623+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:15.624+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1928714282', 'new', 35105, 'ARS', 50, current_timestamp);
+                    
+[2024-10-21T02:39:15.840+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:15.842+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1735236438', 'new', 169999, 'ARS', 250, current_timestamp);
+                    
+[2024-10-21T02:39:16.048+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:16.048+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1735248328', 'new', 174999, 'ARS', 1, current_timestamp);
+                    
+[2024-10-21T02:39:16.253+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:16.255+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1796880754', 'new', 1439999, 'ARS', 500, current_timestamp);
+                    
+[2024-10-21T02:39:16.490+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:16.493+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA820599600', 'new', 42848.8, 'ARS', 100, current_timestamp);
+                    
+[2024-10-21T02:39:16.713+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:16.713+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1426112753', 'new', 7139.44, 'ARS', 1, current_timestamp);
+                    
+[2024-10-21T02:39:16.928+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:16.930+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1402640681', 'new', 47740, 'ARS', 1, current_timestamp);
+                    
+[2024-10-21T02:39:17.150+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:17.152+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1705302302', 'new', 9899, 'ARS', 150, current_timestamp);
+                    
+[2024-10-21T02:39:17.366+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:17.368+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1433388441', 'new', 759999, 'ARS', 1, current_timestamp);
+                    
+[2024-10-21T02:39:17.573+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:17.575+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1392798127', 'new', 17669, 'ARS', 1, current_timestamp);
+                    
+[2024-10-21T02:39:17.781+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:17.782+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1824905578', 'new', 135000, 'ARS', 1, current_timestamp);
+                    
+[2024-10-21T02:39:17.988+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:17.988+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1470966770', 'new', 11249.25, 'ARS', 500, current_timestamp);
+                    
+[2024-10-21T02:39:18.598+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:18.600+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1885211198', 'new', 56999.05, 'ARS', 1, current_timestamp);
+                    
+[2024-10-21T02:39:18.813+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:18.815+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1444815701', 'new', 145999, 'ARS', 250, current_timestamp);
+                    
+[2024-10-21T02:39:19.023+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:19.024+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1804469146', 'new', 669999, 'ARS', 1, current_timestamp);
+                    
+[2024-10-21T02:39:19.227+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:19.228+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1412394365', 'new', 81990, 'ARS', 1, current_timestamp);
+                    
+[2024-10-21T02:39:19.435+0000] {logging_mixin.py:190} INFO - Query executed
+[2024-10-21T02:39:20.307+0000] {logging_mixin.py:190} INFO - 
+                    INSERT INTO "2024_melissa_herszage_schema".l1_item_prices (item_id, condition, price, currency, available_quantity, created_at) VALUES
+                    ('MLA1513783534', 'new', 771999, 'ARS', 100, current_timestamp);
+                    
+[2024-10-21T02:39:20.312+0000] {taskinstance.py:3310} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/python_files/l1/prices/prices.py", line 56, in insert_prices
+    cursor = conn.cursor()
+             ^^^^^^^^^^^^^
+psycopg2.InterfaceError: connection already closed
+[2024-10-21T02:39:20.373+0000] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=elt, task_id=extract_load_data.insert_prices, run_id=manual__2024-10-21T02:38:33.251839+00:00, execution_date=20241021T023833, start_date=20241021T023904, end_date=20241021T023920
+[2024-10-21T02:39:20.389+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-21T02:39:20.390+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 80 for task extract_load_data.insert_prices (connection already closed; 136)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/cli.py", line 115, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3004, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3158, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3182, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/python_files/l1/prices/prices.py", line 56, in insert_prices
+    cursor = conn.cursor()
+             ^^^^^^^^^^^^^
+psycopg2.InterfaceError: connection already closed
+[2024-10-21T02:39:20.419+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2024-10-21T02:39:20.430+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/models/baseoperator.py:1378: AirflowProviderDeprecationWarning: Call to deprecated class PostgresOperator. (Please use `***.providers.common.sql.operators.sql.SQLExecuteQueryOperator`.Also, you can provide `hook_params={'schema': <database>}`.)
+  result = cls.__new__(cls)
+
+[2024-10-21T02:39:20.440+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-10-21T02:39:20.441+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

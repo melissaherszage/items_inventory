@@ -1,0 +1,32 @@
+[2024-10-21T02:12:40.480+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-21T02:12:40.503+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: elt.extract_load_data.create_table_items manual__2024-10-21T02:12:31.583852+00:00 [queued]>
+[2024-10-21T02:12:41.797+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: elt.extract_load_data.create_table_items manual__2024-10-21T02:12:31.583852+00:00 [queued]>
+[2024-10-21T02:12:41.799+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2024-10-21T02:12:41.828+0000] {taskinstance.py:2888} INFO - Executing <Task(PostgresOperator): extract_load_data.create_table_items> on 2024-10-21 02:12:31.583852+00:00
+[2024-10-21T02:12:41.848+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=80) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-10-21T02:12:41.862+0000] {standard_task_runner.py:72} INFO - Started process 85 to run task
+[2024-10-21T02:12:41.859+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'elt', 'extract_load_data.create_table_items', 'manual__2024-10-21T02:12:31.583852+00:00', '--job-id', '54', '--raw', '--subdir', 'DAGS_FOLDER/elt.py', '--cfg-path', '/tmp/tmp69j4476q']
+[2024-10-21T02:12:41.873+0000] {standard_task_runner.py:105} INFO - Job 54: Subtask extract_load_data.create_table_items
+[2024-10-21T02:12:42.185+0000] {task_command.py:467} INFO - Running <TaskInstance: elt.extract_load_data.create_table_items manual__2024-10-21T02:12:31.583852+00:00 [running]> on host d84184533e22
+[2024-10-21T02:12:42.362+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='mherszage' AIRFLOW_CTX_DAG_ID='elt' AIRFLOW_CTX_TASK_ID='extract_load_data.create_table_items' AIRFLOW_CTX_EXECUTION_DATE='2024-10-21T02:12:31.583852+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-21T02:12:31.583852+00:00'
+[2024-10-21T02:12:42.366+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-21T02:12:42.409+0000] {sql.py:266} INFO - Executing: CREATE TABLE IF NOT EXISTS "2024_melissa_herszage_schema".l1_items
+(
+    id    varchar(256),
+    title varchar(256),
+    created_at timestamp
+);
+[2024-10-21T02:12:42.419+0000] {base.py:84} INFO - Retrieving connection 'redshift_default'
+[2024-10-21T02:12:43.116+0000] {base.py:84} INFO - Retrieving connection 'redshift_default'
+[2024-10-21T02:12:45.143+0000] {sql.py:509} INFO - Running statement: CREATE TABLE IF NOT EXISTS "2024_melissa_herszage_schema".l1_items
+(
+    id    varchar(256),
+    title varchar(256),
+    created_at timestamp
+);, parameters: None
+[2024-10-21T02:12:46.510+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-21T02:12:46.511+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=elt, task_id=extract_load_data.create_table_items, run_id=manual__2024-10-21T02:12:31.583852+00:00, execution_date=20241021T021231, start_date=20241021T021240, end_date=20241021T021246
+[2024-10-21T02:12:46.553+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-10-21T02:12:46.599+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -19,8 +19,10 @@ def get_dag_sql_files(dag_folder: str = None ,
     sql_files = [f for f in os.listdir(path) if f.endswith('.sql')]
     print(f"SQL files found: {sql_files}")
     
-    full_paths = [os.path.join(path, f) for f in sql_files]
+    #full_paths = [os.path.join(path, f) for f in sql_files]
     
-    return full_paths
+    #return full_paths
 
-get_dag_sql_files('l2')
+    relative_paths = [f"sql_files/{dag_folder}/{dag_sub_folder}/{f}" if dag_sub_folder else f"sql_files/{dag_folder}/{f}" for f in sql_files]
+    
+    return relative_paths

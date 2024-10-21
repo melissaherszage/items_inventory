@@ -23,7 +23,7 @@ Es requisito tener Docker y Docker Compose instalados.
 ```cd items_inventory```
 
 3. Levantar los servicios usando Docker Compose:
-```docker-compose up -d```
+```docker compose up -d```
 
 4. Acceder a la interfaz de Airflow para monitorear el pipeline y verificar la ejecución de los DAGs.
 ```http://localhost:8080```
@@ -34,7 +34,7 @@ Es requisito tener Docker y Docker Compose instalados.
 - Ir a Admin -> Connections.
 - Crea una nueva conexión con los siguientes detalles:
     - Connection Id: redshift_default
-    - Connection Type: Amazon Redshift
+    - Connection Type: Postgres (ojo! no es redshift)
     - Host: redshift-pda-cluster.cnuimntownzt.us-east-2.redshift.amazonaws.com
     - Database: pda
     - Port: 5439
