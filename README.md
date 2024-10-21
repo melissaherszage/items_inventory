@@ -14,35 +14,39 @@ Este proyecto utiliza Docker Compose para levantar airflow y fue diseñado para 
 
 ## Set Up
 
-Es requisito tenes Docker y Docker Compose instalados.
+Es requisito tener Docker y Docker Compose instalados.
 
 1. Clonar el repositorio:
 ```git clone https://github.com/melissaherszage/items_inventory.git```
+
 2. Navegar al directorio del proyecto:
 ```cd items_inventory```
+
 3. Levantar los servicios usando Docker Compose:
 ```docker-compose up -d```
+
 4. Acceder a la interfaz de Airflow para monitorear el pipeline y verificar la ejecución de los DAGs.
 ```http://localhost:8080```
 - Username: airflow
-- Password: aiflow
+- Password: airflow
+
 5. Configura una nueva conexión en Airflow:
 - Ir a Admin -> Connections.
 - Crea una nueva conexión con los siguientes detalles:
-Connection Id: redshift_default
-Connection Type: Amazon Redshift
-Host: redshift-pda-cluster.cnuimntownzt.us-east-2.redshift.amazonaws.com
-Database: pda
-Port: 5439
-User: 2024_melissa_herszage
-Password: Contactarme a meliherszage@gmail.com para obtener la contraseña.
+    - Connection Id: redshift_default
+    - Connection Type: Amazon Redshift
+    - Host: redshift-pda-cluster.cnuimntownzt.us-east-2.redshift.amazonaws.com
+    - Database: pda
+    - Port: 5439
+    - User: 2024_melissa_herszage
+    - Password: Contactarme a meliherszage@gmail.com para obtener la contraseña.
 
 ## Funte de datos
 
 Se utilizo un codigo de python para traer data de la API de Mercado Libre
 ```https://api.mercadolibre.com/sites/MLA/categories```
 
-# Estructura
+## Estructura
 
 - dags/: Contiene los DAGs (Definiciones de flujo de trabajo) de Airflow.
 - python_files/: Contiene todos los archivos de python necesarios para ejecutar las tareas del dag de ELT
