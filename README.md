@@ -23,7 +23,7 @@ Es requisito tener Docker y Docker Compose instalados.
 ```cd items_inventory```
 
 3. Levantar los servicios usando Docker Compose:
-```docker-compose up -d```
+```docker compose up -d```
 
 4. Acceder a la interfaz de Airflow para monitorear el pipeline y verificar la ejecución de los DAGs.
 ```http://localhost:8080```
