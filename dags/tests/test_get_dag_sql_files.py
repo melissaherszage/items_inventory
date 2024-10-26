@@ -1,5 +1,5 @@
 import pytest
-from dags.python_files.lib.sql_folder import get_dag_sql_files
+from python_files.lib.sql_folder import get_dag_sql_files
 
 def get_dag_sql_files(dag_folder: str = None ,
                         dag_sub_folder: str = None):
