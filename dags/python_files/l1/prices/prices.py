@@ -1,5 +1,5 @@
 import requests
-from datetime import datetime
+from datetime import datetime, timedelta
 from python_files.lib.infra import database_connection
 import os
 from dotenv import load_dotenv
@@ -60,6 +60,8 @@ def insert_prices():
             conn.commit()
             cursor.close()
             conn.close()
+
+            ultimo_archivo += timedelta(days=1)
 
         else:
             print('Error:', response.status_code)

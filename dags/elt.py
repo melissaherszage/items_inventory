@@ -9,11 +9,12 @@ from airflow.operators.trigger_dagrun import TriggerDagRunOperator
 from python_files.l1.items.items import insert_items
 from python_files.l1.prices.prices import insert_prices
 from python_files.lib.sql_folder import get_dag_sql_files
+from python_files.lib.get_dag_id import get_dag_id
 
 
 # Defino el DAG 
 
-DAG_ID = os.path.basename(__file__).replace(".py", "")
+DAG_ID = get_dag_id(__file__)
 
 DEFAULT_ARGS = {
     "owner": 'mherszage',
