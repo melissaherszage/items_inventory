@@ -6,4 +6,4 @@ CREATE TABLE IF NOT EXISTS "2024_melissa_herszage_schema".l1_item_prices
     currency           varchar(256),
     available_quantity int,
     created_at         timestamp
-)
+);

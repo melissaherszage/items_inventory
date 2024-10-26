@@ -1,5 +1,4 @@
 import os
-import pytest
 from python_files.lib.get_dag_id import get_dag_id
 
 def test_dag_id(monkeypatch):

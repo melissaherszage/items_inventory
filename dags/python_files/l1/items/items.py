@@ -1,10 +1,7 @@
 import requests
-import pandas as pd
 from python_files.lib.infra import database_connection
 import os
 from dotenv import load_dotenv
-import os
-from airflow.hooks.base import BaseHook
 
 load_dotenv()
 
@@ -41,14 +38,17 @@ def insert_items():
             INSERT INTO items_temporary (id, title, created_at) VALUES
             ('{id}', '{title}', current_timestamp);
 
-            INSERT INTO "2024_melissa_herszage_schema".l1_items (SELECT id, title, created_at FROM items_temporary it WHERE id NOT IN (SELECT id FROM "2024_melissa_herszage_schema".l1_items));
+            INSERT INTO "2024_melissa_herszage_schema".l1_items 
+            (SELECT id, title, created_at FROM items_temporary it WHERE id NOT IN 
+            (SELECT id FROM "2024_melissa_herszage_schema".l1_items)
+            );
 
             DROP TABLE items_temporary;
 
             END TRANSACTION;
             """
 
-            # Execute the query
+            # Ejecutar la query
             cursor.execute(insert_query)
             print('Query executed')
 
@@ -60,5 +60,3 @@ def insert_items():
 
     else:
         print('Error:', response.status_code)
-
-

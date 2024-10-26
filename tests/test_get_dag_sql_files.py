@@ -1,5 +1,3 @@
-import pytest
-import os
 from python_files.lib.sql_folder import get_dag_sql_files
 
 def test_get_dag_sql_files_without_sub_folder():
