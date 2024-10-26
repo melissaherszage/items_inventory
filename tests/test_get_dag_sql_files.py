@@ -1,4 +1,5 @@
 import pytest
+from dags.python_files.lib.sql_folder import get_dag_sql_files
 
 def get_dag_sql_files(dag_folder: str = None ,
                         dag_sub_folder: str = None):
@@ -10,18 +11,9 @@ def get_dag_sql_files(dag_folder: str = None ,
     :dag_sub_folder: subcarpeta dentro de la anterior - opcional
     """
 
-    #  Defino el path de la carpeta donde voy a buscar los archivos
-    if dag_sub_folder is not None:
-        path = f'dags/sql_files/{dag_folder}/{dag_sub_folder}'
-    else:
-        path = f'dags/sql_files/{dag_folder}' 
-    return path
-
 def test_get_dag_sql_files_without_sub_folder():
     dag_folder = 'l2'
     expected_path = 'dags/sql_files/l2'
     result = get_dag_sql_files(dag_folder=dag_folder)
     print(result)
     assert result == expected_path
-
-
