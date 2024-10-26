@@ -1,1 +1,5 @@
 .env
+# Ignorar logs de Airflow
+logs/
+# Ignorar carpetas __pycache__
+__pycache__/
