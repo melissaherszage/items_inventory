@@ -5,16 +5,14 @@ from datetime import timedelta
 from airflow.utils.task_group import TaskGroup
 from airflow.operators.python import PythonOperator
 from airflow.providers.postgres.operators.postgres import PostgresOperator
-from airflow.operators.trigger_dagrun import TriggerDagRunOperator
 from python_files.l1.items.items import insert_items
 from python_files.l1.prices.prices import insert_prices
 from python_files.lib.sql_folder import get_dag_sql_files
 from python_files.lib.get_dag_id import get_dag_id
 
-
 # Defino el DAG 
-
 DAG_ID = get_dag_id(__file__)
+
 
 DEFAULT_ARGS = {
     "owner": 'mherszage',
@@ -65,13 +63,12 @@ with DAG(
         sql_paths = get_dag_sql_files(dag_folder='l2')
 
         for sql_path in sql_paths:
-            task_id_sql = os.path.basename(sql_path).replace(".sql", "")  # Crear un task_id basado en el nombre del archivo
+            # Crear un task_id basado en el nombre del archivos
+            task_id_sql = os.path.basename(sql_path).replace(".sql", "")  
             
             PostgresOperator(
             task_id=f"run_{task_id_sql}",
-            #postgres_conn_id='redshift_default',
             sql=sql_path,
         )
 
 extract_load_data >> transform_data
-

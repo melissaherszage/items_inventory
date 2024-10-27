@@ -10,7 +10,7 @@ def insert_prices():
 
     conn = database_connection()
 
-    max_date_query = f"""
+    max_date_query = """
                 SELECT COALESCE(MAX(date(created_at)), '2024-10-16') FROM "2024_melissa_herszage_schema".l1_item_prices
                 """
     
@@ -65,7 +65,3 @@ def insert_prices():
 
         else:
             print('Error:', response.status_code)
-
-    
-
-
