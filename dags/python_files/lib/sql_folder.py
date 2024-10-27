@@ -4,12 +4,19 @@ def get_dag_sql_files(dag_folder: str = None,
                         dag_sub_folder: str = None):
     
     """
-    Agarra todos los archivos sql dentro de una carpeta,
-    Opcional tambien ponerle una subcarpeta
-    :param dag_folder: carpeta donde estan los sql de ese DAG -> por default es el nombre del dag
-    :dag_sub_folder: subcarpeta dentro de la anterior - opcional
-    """
+    Obtiene los archivos SQL dentro de una carpeta específica para un DAG.
     
+    Args:
+        dag_folder (str): Carpeta donde están los SQL de ese DAG. Por defecto, es el nombre del DAG.
+        dag_sub_folder (str, optional): Subcarpeta dentro de 'dag_folder', opcional.
+        
+    Returns:
+        list: Lista de rutas relativas de los archivos SQL encontrados en la carpeta especificada.
+        
+    Raises:
+        FileNotFoundError: Si la carpeta especificada no existe.
+    """
+
     if dag_sub_folder is not None:
         path = f'dags/sql_files/{dag_folder}/{dag_sub_folder}'
     else:
