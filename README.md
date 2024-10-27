@@ -6,6 +6,8 @@
 
 Este proyecto utiliza Docker Compose para levantar airflow y fue diseñado para automatizar la extracción diaria de datos de items de consolas y videojuegos desde la API de MercadoLibre. Utilizando herramientas como Apache Airflow, Redshift, y Docker, el pipeline recopila información sobre precios, stocks y si los productos son nuevos o usados. Los datos luego son transformados y cargados en Redshift para facilitar su modelado y análisis, permitiendo un estudio continuo del mercado de videojuegos.
 
+Este proyecto 
+
 ## Caracteristicas del proyecto
 
 - Integración con API: Se conecta diariamente a la API de MercadoLibre.
@@ -14,6 +16,15 @@ Este proyecto utiliza Docker Compose para levantar airflow y fue diseñado para 
 - Carga en Redshift: Los datos transformados son cargados en Redshift para consultas y análisis futuros.
 - Transformación de datos: Los datos son limpiados y preparados para análisis.
 - Pruebas unitarias: Se hacen pruebas de linting y test unitarios para garantizar la calidad del código.
+
+### Qué insights podemos obtener con esta data?
+
+A continuación defino diferentes preguntas de negocio que se podrían responder a partir de esta base de datos
+
+	1.  Cómo es la evolución de las ventas de consolas y videojuegos a lo largo de los dias y cual es la tendencia de dicha evolución?
+	2.  Cuál es la diferencia en % de los precios entre el primer y ultimo dia?
+	3.  Existen patrones estacionales en las ventas de consolas y videojuegos?
+	4.  Cuál fue el mes con mayor cantidad de ventas de consolas y videojuegos en el periodo analizado?	
 
 ## Set Up
 
@@ -66,6 +77,8 @@ La API de MercadoLibre es una API REST que permite a los desarrolladores interac
 El modelo esta dividido en dos capas: l1 y l2. En la capa l1 encontramos la data cruda como viene de la API, es decir, sin sufrir ninguna modificacion. Estas tablas son dos, items e item_prices.
 La capa l2 contiene un modelo dimensional compuesto por una tabla de hechos y tres tablas de dimensiones que le dan contexto a los hechos.
 
+![alt text](image.png)
+
 #### Tablas de hechos
 
 1. fact_items_information Almacena los datos de stock y precio de los items de forma diaria
@@ -90,6 +103,5 @@ El modelado ELT esta compuesto por un dag elt.py que contiene tanto la extracci�
 La carpeta tests contiene dos pruebas unitarias y ademas, el workflow de github corre el linting.
 - test_dag_id.py: Teste la funcion que crea el dag id a partir del nombre del archivo
 - test_get_dag_sql_files.py: Testea si la funcion que busca los archivos dentro de la carpeta sql_files traiga el path correspondiente.
-- lint.yml: asegura que el codigo cumple con la calidad PEP8
 
-Estos tres tests se ejecutan cuando se hace un push o un pull request en github.
+Estos tests se ejecutan cuando se hace un push o un pull request en github.

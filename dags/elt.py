@@ -1,7 +1,7 @@
 import os
 import datetime
-from airflow import DAG
 from datetime import timedelta
+from airflow import DAG
 from airflow.utils.task_group import TaskGroup
 from airflow.operators.python import PythonOperator
 from airflow.providers.postgres.operators.postgres import PostgresOperator
@@ -10,7 +10,7 @@ from python_files.l1.prices.prices import insert_prices
 from python_files.lib.sql_folder import get_dag_sql_files
 from python_files.lib.get_dag_id import get_dag_id
 
-# Defino el DAG 
+# Defino el DAG
 DAG_ID = get_dag_id(__file__)
 
 
@@ -40,7 +40,7 @@ with DAG(
             task_id='create_table_items',
             sql='sql_files/l1/items/create_table.sql'
             )
-        
+
         create_table_prices = PostgresOperator(
             task_id='create_table_prices',
             sql='sql_files/l1/prices/create_table.sql'
@@ -64,8 +64,8 @@ with DAG(
 
         for sql_path in sql_paths:
             # Crear un task_id basado en el nombre del archivos
-            task_id_sql = os.path.basename(sql_path).replace(".sql", "")  
-            
+            task_id_sql = os.path.basename(sql_path).replace(".sql", "")
+
             PostgresOperator(
             task_id=f"run_{task_id_sql}",
             sql=sql_path,
