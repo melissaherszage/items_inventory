@@ -2,6 +2,7 @@ import requests
 from python_files.lib.infra import database_connection
 import os
 from dotenv import load_dotenv
+import os
 
 load_dotenv()
 
